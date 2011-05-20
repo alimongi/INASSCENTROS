@@ -1,0 +1,17 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+new:
+  credentials: [[admin, dircen]]
+
+edit:
+  credentials: [[admin, dircen]]
+
+show:
+  credentials: [[admin, dircen, usersal, usercon]]
+
+delete:
+  credentials: [[admin, dircen]]
+
+index:
+  credentials: [[admin, dircen, usersal, usercon]]

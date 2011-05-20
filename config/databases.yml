@@ -1,0 +1,9 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=inasscentros;unix_socket=/var/run/mysqld/mysqld.sock'
+      username: inasscentros
+      password: 'In@Sc3N#R0s'
+    attributes:
+      use_dql_callbacks: true

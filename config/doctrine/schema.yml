@@ -1,0 +1,337 @@
+sfGuardUser:
+  columns:
+    cedula:
+      type: integer (8)
+      unique: true
+      notnull: true
+      notblank: true
+  relations:
+    Estados:
+      class: Estado
+      local: user_id
+      foreign: estado_id
+      refClass: UserEstado
+      foreignAlias: Estados
+
+Estado:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+  relations:
+    User:
+      class: sfGuardUser
+      local: estado_id
+      foreign: user_id
+      refClass: UserEstado
+      foreignAlias: Users
+
+UserEstado:
+  columns:
+    user_id:
+      type: integer
+      primary: true
+    estado_id:
+      type: integer(4)
+      primary: true
+
+Municipio:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    estado_id:
+      type: integer (4)
+      notnull: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+  relations:
+    Estado:
+      local: estado_id
+      foreign: id
+
+Parroquia:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    municipio_id:
+      type: integer (4)
+      notnull: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+  relations:
+    Municipio:
+      local: municipio_id
+      foreign: id
+Centro:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    estado_id:
+      type: integer (4)
+      notnull: true
+    municipio_id:
+      type: integer (4)
+      notnull: true
+    parroquia_id:
+      type: integer (4)
+      notnull: true
+    direccion:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    responsable:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf1:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf2:
+      type: string(120)
+      notnull: false
+      notblank: false
+      minlength: 0
+    mail1:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    mail2:
+      type: string(120)
+      notnull: false
+      notblank: false
+      minlength: 0
+    adultos_fsalud:
+      type: integer(4)
+      notnull: false
+    adultos_msalud:
+      type: integer(4)
+      notnull: false
+    adultos_fsocial:
+      type: integer(4)
+      notnull: false
+    adultos_msocial:
+      type: integer(4)
+      notnull: false
+    adultos_f:
+      type: integer(4)
+      notnull: false
+    adultos_m:
+      type: integer(4)
+      notnull: false
+    adultos_t:
+      type: integer(4)
+      notnull: false
+  relations:
+    Estado:
+      local: estado_id
+      foreign: id
+    Municipio:
+      local: municipio_id
+      foreign: id
+    Parroquia:
+      local: parroquia_id
+      foreign: id
+Gerogranja:
+  inheritance:
+    extends: Centro
+    type: column_aggregation
+Ambulatorio:
+  inheritance:
+    extends: Centro
+    type: column_aggregation
+Residencial:
+  inheritance:
+    extends: Centro
+    type: column_aggregation
+Aldea:
+  inheritance:
+    extends: Centro
+    type: column_aggregation
+Refugio:
+  inheritance:
+    extends: Centro
+    type: column_aggregation
+
+Beneficiario:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    ci:
+      type: integer (10)
+      unique: true
+      notnull: true
+      notblank: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    apellido:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    fnacimiento:
+      type: date
+      notnull: true
+      notblank: true
+    sexo:
+      type: enum
+      values: [M, F]
+      notnull: true
+      notblank: true
+    estado_civ:
+      type: enum
+      values: [Solter@, Casad@, Viud@, Divorciad@, Separad@, Conviviente]
+      notnull: true
+      notblank: true
+    estado_id:
+      type: integer (4)
+      notnull: true
+    municipio_id:
+      type: integer (4)
+      notnull: true
+    parroquia_id:
+      type: integer (4)
+      notnull: true
+    direccion:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf1:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf2:
+      type: string(120)
+      notnull: false
+      notblank: false
+      minlength: 0
+    mail1:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    familiar:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf_fam:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    fallecido:
+      type: enum
+      values: [Si, No]
+      notnull: true
+      notblank: true
+      default: No
+  relations:
+    Estado:
+      local: estado_id
+      foreign: id
+    Municipio:
+      local: municipio_id
+      foreign: id
+    Parroquia:
+      local: parroquia_id
+      foreign: id
+
+Atencion:
+   actAs:
+    Timestampable: ~
+    SoftDelete: ~
+   columns:
+     id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+     beneficiario_id:
+       type: integer(4)
+     centro_id:
+       type: integer(4)
+     estado_id:
+       type: integer(4)
+     social:
+       type: enum
+       values: [Si, No]
+       notnull: true
+       notblank: true
+       default: No
+     salud:
+       type: enum
+       values: [Si, No]
+       notnull: true
+       notblank: true
+       default: No
+     user_id:
+       type: integer
+   relations:
+     Beneficiario:
+       local: beneficiario_id
+       foreign: id
+     Centro:
+       local: centro_id
+       foreign: id
+     Estado:
+       local: estado_id
+       foreign: id
+     User:
+       class: sfGuardUser
+       local: user_id
+       foreign: id
