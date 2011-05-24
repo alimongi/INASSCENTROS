@@ -15,4 +15,28 @@ class Beneficiario extends BaseBeneficiario
         public function  __toString() {
         return $this->getNombre().' '.$this->getApellido();
         }
+
+       public function  save(Doctrine_Connection $conn = null) {
+        $conn = $conn ? $conn : $this->getTable()->getConnection();
+        $conn->beginTransaction();
+        try {
+
+            $part = $this->getFallecido();
+            if($part == 'Si'){
+            $this->setDeletedAt($this->getUpdatedAt());
+            }
+            if($part == 'No'){
+            $this->setDeletedAt(NULL);
+            }
+            $ret = parent::save($conn);
+            $conn->commit();
+            return $ret;
+        }  catch (Exception $e) {
+            $conn->rollback();
+            throw $e;
+        }
+    }
+
+
 }
+
