@@ -17,6 +17,13 @@ class aldeasActions extends sfActions
     ->getListado($ids);
   }
 
+  public function executeAldIndex(sfWebRequest $request)
+  {
+      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
+      $this->aldeas = Doctrine::getTable('Aldea')
+      ->getListado($ids);
+  }
+
   public function executeShow(sfWebRequest $request)
   {
     $this->aldea = Doctrine::getTable('Aldea')->find(array($request->getParameter('id')));

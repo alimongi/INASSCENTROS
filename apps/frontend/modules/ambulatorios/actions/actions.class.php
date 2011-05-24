@@ -17,6 +17,13 @@ class ambulatoriosActions extends sfActions
     ->getListado($ids);
   }
 
+  public function executeAmbIndex(sfWebRequest $request)
+  {
+      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
+      $this->ambulatorios = Doctrine::getTable('Ambulatorio')
+      ->getListado($ids);
+  }
+
   public function executeShow(sfWebRequest $request)
   {
     $this->ambulatorio = Doctrine::getTable('Ambulatorio')->find(array($request->getParameter('id')));

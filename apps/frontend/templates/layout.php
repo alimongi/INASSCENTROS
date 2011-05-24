@@ -37,30 +37,35 @@
     <ul>
     <li><a href="<?php echo url_for('residenciales/new')?>">Agregar</a></li>
     <li><a href="<?php echo url_for('residenciales/index')?>">Ver</a></li>
+    <li><a href="<?php echo url_for('residenciales/ResIndex')?>">Estadística</a></li>
     </ul>
     </li>
     <li><a href="#" title="Administracion de Centros Ambulatorios">Centros Ambulatorios</a>
     <ul>
     <li><a href="<?php echo url_for('ambulatorios/new')?>">Agregar</a></li>
     <li><a href="<?php echo url_for('ambulatorios/index')?>">Ver</a></li>
+    <li><a href="<?php echo url_for('ambulatorios/AmbIndex')?>">Estadística</a></li>
     </ul>
     </li>
     <li><a href="#" title="Administracion de Gerogranjas">Gerogranjas</a>
     <ul>
     <li><a href="<?php echo url_for('gerogranjas/new') ?>">Agregar</a></li>
     <li><a href="<?php echo url_for('gerogranjas/index')?>">Ver</a></li>
+    <li><a href="<?php echo url_for('gerogranjas/GerIndex')?>">Estadística</a></li>
     </ul>
     </li>
     <li><a href="#" title="Administracion de Aldeas de Encuentro">Aldeas de Encuentro</a>
     <ul>
     <li><a href="<?php echo url_for('aldeas/new')?>">Agregar</a></li>
     <li><a href="<?php echo url_for('aldeas/index')?>">Ver</a></li>
+    <li><a href="<?php echo url_for('aldeas/AldIndex')?>">Estadística</a></li>
     </ul>
     </li>
     <li><a href="#" title="Administracion de Refugios">Refugios</a>
     <ul>
     <li><a href="<?php echo url_for('refugios/new')?>">Agregar</a></li>
     <li><a href="<?php echo url_for('refugios/index')?>">Ver</a></li>
+    <li><a href="<?php echo url_for('refugios/RefIndex')?>">Estadística</a></li>
     </ul>
     </li>
     <li><a href="#" title="Administracion de Beneficiarios">Beneficiarios</a>

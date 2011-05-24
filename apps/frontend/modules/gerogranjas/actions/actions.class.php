@@ -17,6 +17,13 @@ class gerogranjasActions extends sfActions
     ->getListado($ids);
   }
 
+  public function executeGerIndex(sfWebRequest $request)
+  {
+     $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
+     $this->gerogranjas = Doctrine::getTable('Gerogranja')
+    ->getListado($ids);
+  }
+
   public function executeShow(sfWebRequest $request)
   {
     $this->gerogranja = Doctrine::getTable('Gerogranja')->find(array($request->getParameter('id')));

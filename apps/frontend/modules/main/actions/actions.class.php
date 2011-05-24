@@ -17,55 +17,12 @@ class mainActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-
-  }
-
-    public function executeResIndex(sfWebRequest $request)
-  {
       $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->residenciales = Doctrine::getTable('Residencial')
-      ->getListado($ids);
-//      if($request->getParameter('formato') == 'excel') {
-//          $this->setLayout(false);
-//          $response = $this->getResponse();
-//          $response->clearHttpHeaders();
-//          $response->setContentType('application/vnd.ms-excel');
-//          $response->setHttpHeader('Content-Type', 'application/vnd.ms-excel');
-//          $response->setHttpHeader('Content-Disposition', 'attachment;filename=export12.xls');
-//
-//      }
-  }
-
-     public function executeAmbIndex(sfWebRequest $request)
-  {
-      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->ambulatorios = Doctrine::getTable('Ambulatorio')
+      $this->centros = Doctrine::getTable('Centro')
       ->getListado($ids);
   }
 
-      public function executeGerIndex(sfWebRequest $request)
-  {
-     $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-     $this->gerogranjas = Doctrine::getTable('Gerogranja')
-    ->getListado($ids);  
-  }
-
-        public function executeAldIndex(sfWebRequest $request)
-  {
-      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->aldeas = Doctrine::getTable('Aldea')
-      ->getListado($ids);
-  }
-
-          public function executeRefIndex(sfWebRequest $request)
-  {
-     $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->refugios = Doctrine::getTable('Refugio')
-    ->getListado($ids);
-  }
-
-
-  public function executeJsonMunicipios(sfWebRequest $request)
+    public function executeJsonMunicipios(sfWebRequest $request)
   {
       $response = $this->getResponse();
       $response->setContentType('application/json');

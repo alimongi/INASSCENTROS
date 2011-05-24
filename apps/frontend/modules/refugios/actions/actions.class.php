@@ -16,6 +16,14 @@ class refugiosActions extends sfActions
       $this->refugios = Doctrine::getTable('Refugio')
     ->getListado($ids);
   }
+  
+  public function executeRefIndex(sfWebRequest $request)
+  {
+     $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
+      $this->refugios = Doctrine::getTable('Refugio')
+    ->getListado($ids);
+  }
+
 
   public function executeShow(sfWebRequest $request)
   {

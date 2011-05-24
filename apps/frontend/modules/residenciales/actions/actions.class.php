@@ -17,6 +17,24 @@ class residencialesActions extends sfActions
   ->getListado($ids);
   }
 
+    public function executeResIndex(sfWebRequest $request)
+  {
+      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
+      $this->residenciales = Doctrine::getTable('Residencial')
+      ->getListado($ids);
+//      if($request->getParameter('formato') == 'excel') {
+//          $this->setLayout(false);
+//          $response = $this->getResponse();
+//          $response->clearHttpHeaders();
+//          $response->setContentType('application/vnd.ms-excel');
+//          $response->setHttpHeader('Content-Type', 'application/vnd.ms-excel');
+//          $response->setHttpHeader('Content-Disposition', 'attachment;filename=export12.xls');
+//
+//      }
+  }
+
+
+
   public function executeShow(sfWebRequest $request)
   {
     $this->residencial = Doctrine::getTable('Residencial')->find(array($request->getParameter('id')));
