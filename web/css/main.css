@@ -4,6 +4,16 @@ html, body {
     height: 100%;
     text-align: center;
 }
+
+#map {
+    float: right;
+    margin-top: 90px;
+    margin-right: 200px;
+    width: 460px;
+    height: 460px
+}
+
+
 #wrapper {
     background-color: #E6E6E6;
     font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";

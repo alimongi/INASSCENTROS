@@ -23,6 +23,8 @@
  * @property integer $adultos_f
  * @property integer $adultos_m
  * @property integer $adultos_t
+ * @property long $latitud
+ * @property long $longitud
  * @property string $type
  * @property Estado $Estado
  * @property Municipio $Municipio
@@ -47,6 +49,8 @@
  * @method integer             getAdultosF()        Returns the current record's "adultos_f" value
  * @method integer             getAdultosM()        Returns the current record's "adultos_m" value
  * @method integer             getAdultosT()        Returns the current record's "adultos_t" value
+ * @method long                getLatitud()         Returns the current record's "latitud" value
+ * @method long                getLongitud()        Returns the current record's "longitud" value
  * @method string              getType()            Returns the current record's "type" value
  * @method Estado              getEstado()          Returns the current record's "Estado" value
  * @method Municipio           getMunicipio()       Returns the current record's "Municipio" value
@@ -70,6 +74,8 @@
  * @method Centro              setAdultosF()        Sets the current record's "adultos_f" value
  * @method Centro              setAdultosM()        Sets the current record's "adultos_m" value
  * @method Centro              setAdultosT()        Sets the current record's "adultos_t" value
+ * @method Centro              setLatitud()         Sets the current record's "latitud" value
+ * @method Centro              setLongitud()        Sets the current record's "longitud" value
  * @method Centro              setType()            Sets the current record's "type" value
  * @method Centro              setEstado()          Sets the current record's "Estado" value
  * @method Centro              setMunicipio()       Sets the current record's "Municipio" value
@@ -107,12 +113,12 @@ abstract class BaseCentro extends sfDoctrineRecord
              'notnull' => true,
              'length' => 4,
              ));
-        $this->hasColumn('direccion', 'string', 120, array(
+        $this->hasColumn('direccion', 'string', 300, array(
              'type' => 'string',
              'notnull' => true,
              'notblank' => true,
              'minlength' => 4,
-             'length' => 120,
+             'length' => 300,
              ));
         $this->hasColumn('nombre', 'string', 120, array(
              'type' => 'string',
@@ -190,6 +196,14 @@ abstract class BaseCentro extends sfDoctrineRecord
              'type' => 'integer',
              'notnull' => false,
              'length' => 4,
+             ));
+        $this->hasColumn('latitud', 'long', null, array(
+             'type' => 'long',
+             'notnull' => false,
+             ));
+        $this->hasColumn('longitud', 'long', null, array(
+             'type' => 'long',
+             'notnull' => false,
              ));
         $this->hasColumn('type', 'string', 255, array(
              'type' => 'string',

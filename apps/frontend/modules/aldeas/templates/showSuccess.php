@@ -1,3 +1,8 @@
+<head>
+<script type="text/javascript" src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAu3uVCBNwwIgRLVQOs8Uz8xSlKUFWB4K2ApdoW_qVIa3-3PXYdRQUEu-PIU8HC7DnxJ7QuqswQBhJZA">/*** EasyGoogleMap Class by: Mitchelle Pascual ***/</script>
+</head>
+
+<div id="map"></div>
 <table>
   <tbody>
     <tr>
@@ -77,15 +82,64 @@
       <td><?php echo $aldea->getAdultosT() ?></td>
     </tr>
     <tr>
-      <th>Created at:</th>
-      <td><?php echo $aldea->getCreatedAt() ?></td>
+      <th>Latitud:</th>
+      <td><?php echo $aldea->getLatitud() ?></td>
     </tr>
     <tr>
-      <th>Updated at:</th>
-      <td><?php echo $aldea->getUpdatedAt() ?></td>
+      <th>Longitud:</th>
+      <td><?php echo $aldea->getLongitud() ?></td>
     </tr>
   </tbody>
 </table>
+
+
+<?php $lat =  $aldea->getLatitud(); ?>
+<?php $lon =  $aldea->getLongitud(); ?>
+
+
+<script type="text/javascript">
+function load() {
+	if (GBrowserIsCompatible()) {
+
+		var map = new GMap2(document.getElementById("map"));
+		map.addControl(new GLargeMapControl());
+		map.addControl(new GMapTypeControl());
+		map.setCenter(new GLatLng(<?php echo $lat; ?>,<?php echo $lon; ?>), 12);
+
+		//Creo y muestro una marca
+		var puntoMarca1 = new GLatLng(<?php echo $lat; ?>,<?php echo $lon; ?>);
+		var marca1 = new GMarker(puntoMarca1);
+		map.addOverlay(marca1);
+		//añado un evento a la marca para que reaccione al clic
+		GEvent.addListener(marca1, "click", function (){
+			//creo las pestañas
+			var pestana1 = new GInfoWindowTab("Etiqueta1","<div style='width: 300px;'>Este es el texto de la etiqueta 1</div>");
+			var pestana2 = new GInfoWindowTab("Etiq","<div style='width: 300px;'>Ahora estoy en la 2");
+			var pestana3 = new GInfoWindowTab("Otra","<div style='width: 300px;'><b>Tercera pesta&ntilde;a:</b><br>Colocar&eacute; otros contenidos para ver lo que pasa.");
+			marca1.openInfoWindowTabsHtml([pestana1, pestana2, pestana3]);
+
+		});
+
+
+		function crearMarcaPestanas(punto,arrayEtiquetas, arrayContenidos) {
+			var marca = new GMarker(punto);
+			var arrayPestanas = new Array();
+			var anchuraPestanas = arrayEtiquetas.length * 90;
+			for (i=0; i < arrayEtiquetas.length; i++){
+				arrayPestanas[i] = new GInfoWindowTab(arrayEtiquetas[i], "<div style='width: " + anchuraPestanas + "px;'>" + arrayContenidos[i] + "</div>");
+			}
+			GEvent.addListener(marca, "click", function() {
+				marca.openInfoWindowTabsHtml(arrayPestanas);
+			});
+			return marca;
+		}
+
+	}
+}
+window.onload=load
+//]]>
+</script>
+
 
 <hr />
 <div class="boton_fin">

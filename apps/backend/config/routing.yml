@@ -1,3 +1,30 @@
+parroquia:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Parroquia
+    module:               parroquia
+    prefix_path:          /parroquia
+    column:               id
+    with_wildcard_routes: true
+
+municipio:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Municipio
+    module:               municipio
+    prefix_path:          /municipio
+    column:               id
+    with_wildcard_routes: true
+
+estado:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Estado
+    module:               estado
+    prefix_path:          /estado
+    column:               id
+    with_wildcard_routes: true
+
 profile:
   class: sfDoctrineRouteCollection
   options:

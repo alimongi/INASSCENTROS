@@ -1,272 +1,196 @@
 Centro: {  }
-Residencial:
-  Residencial_1:
-    Estado: Estado_6
-    Municipio: Municipio_56
-    Parroquia: Parroquia_181
-    direccion: 'Av las floresm casa no 24'
-    nombre: CSSR1
-    responsable: 'Alexis Limongi'
-    telf1: '123455676'
-    telf2: ''
-    mail1: alexis@inass.com
-    mail2: ''
-    adultos_fsalud: '8'
-    adultos_msalud: '8'
-    adultos_fsocial: '5'
-    adultos_msocial: '5'
-    adultos_f: '13'
-    adultos_m: '13'
-    adultos_t: '26'
-    type: Residencial
-    created_at: '2011-04-18 20:00:29'
-    updated_at: '2011-05-11 16:41:43'
-    deleted_at: null
-  Residencial_2:
-    Estado: Estado_1
-    Municipio: Municipio_1
-    Parroquia: Parroquia_14
-    direccion: 'Vereda norte.'
-    nombre: CSSR2
-    responsable: 'Juan Perez'
-    telf1: '344566654'
-    telf2: ''
-    mail1: alimonfi@gms.com
-    mail2: ''
-    adultos_fsalud: '8'
-    adultos_msalud: '9'
-    adultos_fsocial: '10'
-    adultos_msocial: '30'
-    adultos_f: '18'
-    adultos_m: '39'
-    adultos_t: '57'
-    type: Residencial
-    created_at: '2011-04-18 20:03:46'
-    updated_at: '2011-05-11 16:42:00'
-    deleted_at: null
-  Residencial_3:
-    Estado: Estado_2
-    Municipio: Municipio_2
-    Parroquia: Parroquia_23
-    direccion: 'Av las floresm casa no 24'
-    nombre: cssr3
-    responsable: 'Lennyn Limongi'
-    telf1: '2434'
-    telf2: ''
-    mail1: alexis@inass.com
-    mail2: ''
-    adultos_fsalud: '1'
-    adultos_msalud: '1'
-    adultos_fsocial: '1'
-    adultos_msocial: '1'
-    adultos_f: '2'
-    adultos_m: '2'
-    adultos_t: '4'
-    type: Residencial
-    created_at: '2011-04-20 18:37:37'
-    updated_at: '2011-05-11 16:42:23'
-    deleted_at: null
-  Residencial_4:
-    Estado: Estado_2
-    Municipio: Municipio_5
-    Parroquia: Parroquia_34
-    direccion: 'Vereda norte.'
-    nombre: CSSR4
-    responsable: 'Juan Perez'
-    telf1: '123455676'
-    telf2: ''
-    mail1: alimonfi@gms.com
-    mail2: ''
-    adultos_fsalud: '0'
-    adultos_msalud: '0'
-    adultos_fsocial: '8'
-    adultos_msocial: '10'
-    adultos_f: '8'
-    adultos_m: '10'
-    adultos_t: '18'
-    type: Residencial
-    created_at: '2011-04-20 18:44:44'
-    updated_at: '2011-05-11 16:42:37'
-    deleted_at: null
-  Residencial_5:
-    Estado: Estado_1
-    Municipio: Municipio_1
-    Parroquia: Parroquia_12
-    direccion: 'casa 1 frente a mi plaza'
-    nombre: CSSR5
-    responsable: 'Andres Limongi'
-    telf1: '4545345'
-    telf2: ''
-    mail1: fdfd@frferf.com
-    mail2: ''
-    adultos_fsalud: '25'
-    adultos_msalud: '4'
-    adultos_fsocial: '8'
-    adultos_msocial: '33'
-    adultos_f: '33'
-    adultos_m: '37'
-    adultos_t: '70'
-    type: Residencial
-    created_at: '2011-04-20 18:46:17'
-    updated_at: '2011-05-11 16:42:54'
-    deleted_at: null
 Aldea:
-  Aldea_6:
+  Aldea_1:
     Estado: Estado_2
-    Municipio: Municipio_2
-    Parroquia: Parroquia_23
-    direccion: 'quinta av, los alacranes'
-    nombre: 'Aldea bolivariana'
-    responsable: 'Juan Mendez'
-    telf1: '32442'
-    telf2: ''
-    mail1: asfsf@tu.com
+    Municipio: Municipio_4
+    Parroquia: Parroquia_30
+    direccion: 'Puerto Ayacucho, Urb. Francisco Zambrano, detrás del terminal melicio perez, al lado de ambulatorio francisco zambrano, calle 2, N°2.'
+    nombre: 'A. C. Casa Hogar el Abuelo'
+    responsable: 'Graciela de Marval / Jose Campos'
+    telf1: '04165488632'
+    telf2: '02485210868'
+    mail1: jcamposrivero@yahoo.es
     mail2: ''
+    adultos_fsalud: '13'
+    adultos_msalud: '25'
+    adultos_fsocial: '13'
+    adultos_msocial: '30'
+    adultos_f: '26'
+    adultos_m: '55'
+    adultos_t: '81'
+    latitud: '5.667293150432653'
+    longitud: '-67.62857437133789'
+    type: Aldea
+    created_at: '2011-06-22 15:35:50'
+    updated_at: '2011-06-22 15:35:50'
+    deleted_at: null
+  Aldea_2:
+    Estado: Estado_3
+    Municipio: Municipio_20
+    Parroquia: Parroquia_77
+    direccion: 'Calle los Ciruelos residencia eta Rafael Peñalber, Clarines'
+    nombre: 'Santisimo Cristo Jose'
+    responsable: 'Milbida Farias'
+    telf1: '04148167231'
+    telf2: ''
+    mail1: d_marcano2@hotmail.com
+    mail2: milbida529@hotmail.com
     adultos_fsalud: '10'
-    adultos_msalud: '5'
-    adultos_fsocial: '15'
-    adultos_msocial: '2'
-    adultos_f: '25'
-    adultos_m: '7'
-    adultos_t: '32'
+    adultos_msalud: '20'
+    adultos_fsocial: '10'
+    adultos_msocial: '20'
+    adultos_f: '20'
+    adultos_m: '40'
+    adultos_t: '60'
+    latitud: '9.9333333'
+    longitud: '-65.1666667'
     type: Aldea
-    created_at: '2011-04-20 20:33:17'
-    updated_at: '2011-05-11 16:39:20'
+    created_at: '2011-06-22 15:44:14'
+    updated_at: '2011-06-22 15:56:56'
     deleted_at: null
-  Aldea_7:
-    Estado: Estado_1
-    Municipio: Municipio_1
-    Parroquia: Parroquia_17
-    direccion: 'Luzon a Saman, Callejon Cambural'
-    nombre: 'San Juan'
-    responsable: 'Ligia duran'
-    telf1: '4819230'
-    telf2: ''
-    mail1: fdafd@ligia.com
+  Aldea_3:
+    Estado: Estado_3
+    Municipio: Municipio_12
+    Parroquia: Parroquia_53
+    direccion: 'Final de la calle Anzoategui c/c el samán valle guanape antigua sede medicatura.'
+    nombre: 'A.C.Amigos de la 3ra. AMITER'
+    responsable: 'Lisbeht Flamy / Yelitza Rodriguez'
+    telf1: '04160806967'
+    telf2: '04269828320'
+    mail1: lisbetere_flauriz@hotmail.com
     mail2: ''
-    adultos_fsalud: '3'
-    adultos_msalud: '1'
-    adultos_fsocial: '2'
-    adultos_msocial: '4'
-    adultos_f: '5'
-    adultos_m: '5'
-    adultos_t: '10'
-    type: Aldea
-    created_at: '2011-04-20 20:34:38'
-    updated_at: '2011-05-11 16:40:04'
-    deleted_at: null
-Ambulatorio:
-  Ambulatorio_8:
-    Estado: Estado_2
-    Municipio: Municipio_7
-    Parroquia: Parroquia_42
-    direccion: 'churuata comunal'
-    nombre: CSSA1
-    responsable: 'Keyko Manuati'
-    telf1: '3243243'
-    telf2: ''
-    mail1: keyko@gf.com
-    mail2: ''
-    adultos_fsalud: '0'
-    adultos_msalud: '8'
-    adultos_fsocial: '0'
-    adultos_msocial: '7'
-    adultos_f: '0'
-    adultos_m: '15'
-    adultos_t: '15'
-    type: Ambulatorio
-    created_at: '2011-04-20 21:17:50'
-    updated_at: '2011-05-11 16:41:06'
-    deleted_at: null
-  Ambulatorio_9:
-    Estado: Estado_1
-    Municipio: Municipio_1
-    Parroquia: Parroquia_3
-    direccion: 'Plaza la Candelaria'
-    nombre: CSSA2
-    responsable: 'Juan Fernandez'
-    telf1: '9047873'
-    telf2: ''
-    mail1: juan@cssa2.com
-    mail2: ''
-    adultos_fsalud: '5'
-    adultos_msalud: '0'
-    adultos_fsocial: '9'
-    adultos_msocial: '0'
-    adultos_f: '14'
-    adultos_m: '0'
-    adultos_t: '14'
-    type: Ambulatorio
-    created_at: '2011-04-20 21:18:48'
-    updated_at: '2011-05-11 16:41:23'
-    deleted_at: null
-Gerogranja:
-  Gerogranja_10:
-    Estado: Estado_2
-    Municipio: Municipio_8
-    Parroquia: Parroquia_45
-    direccion: 'Rio negro, tercer arbol'
-    nombre: Hwayu
-    responsable: 'Inca Yupanki'
-    telf1: '3349849'
-    telf2: ''
-    mail1: inca@com.com
-    mail2: ''
-    adultos_fsalud: '8'
+    adultos_fsalud: '6'
     adultos_msalud: '15'
     adultos_fsocial: '6'
-    adultos_msocial: '18'
-    adultos_f: '14'
-    adultos_m: '33'
-    adultos_t: '47'
-    type: Gerogranja
-    created_at: '2011-04-20 21:20:20'
-    updated_at: '2011-05-11 16:40:22'
+    adultos_msocial: '14'
+    adultos_f: '12'
+    adultos_m: '29'
+    adultos_t: '41'
+    latitud: '9.8979627'
+    longitud: '-65.6183182'
+    type: Aldea
+    created_at: '2011-06-22 15:55:41'
+    updated_at: '2011-06-22 15:55:41'
     deleted_at: null
-  Gerogranja_11:
-    Estado: Estado_1
-    Municipio: Municipio_1
-    Parroquia: Parroquia_13
-    direccion: 'Dettras de la Clovel'
-    nombre: 'Produccion Socialista'
-    responsable: 'Pedro Guzman'
-    telf1: '9767854'
-    telf2: ''
-    mail1: pedro@guzman.com
+  Aldea_4:
+    Estado: Estado_3
+    Municipio: Municipio_17
+    Parroquia: Parroquia_66
+    direccion: 'Sector el centro, calle san andres chichorral, local S/N- ONOTO.'
+    nombre: 'Fundación Bolivariana Negra Matea FUNBONEMA (ONOTO)'
+    responsable: 'Maria Ortega / Aleyda Arevalo'
+    telf1: '04248023231'
+    telf2: '04264856057'
+    mail1: fumbonema@gmail.com
     mail2: ''
-    adultos_fsalud: '12'
-    adultos_msalud: '3'
-    adultos_fsocial: '1'
+    adultos_fsalud: '15'
+    adultos_msalud: '27'
+    adultos_fsocial: '10'
+    adultos_msocial: '27'
+    adultos_f: '25'
+    adultos_m: '54'
+    adultos_t: '79'
+    latitud: '9.595926'
+    longitud: '-65.189857'
+    type: Aldea
+    created_at: '2011-06-22 16:08:02'
+    updated_at: '2011-06-22 16:08:02'
+    deleted_at: null
+  Aldea_5:
+    Estado: Estado_3
+    Municipio: Municipio_17
+    Parroquia: Parroquia_66
+    direccion: 'Calle principal de San Pablo de la carretera nacional, a 100 mts. aprox.  Entrando al pueblo.'
+    nombre: 'Fundación Bolivariana Negra Matea FUNBONEMA San Pablo'
+    responsable: 'Maria Ortega / Aleyda Arevalo'
+    telf1: '04248023231'
+    telf2: '04264856057'
+    mail1: fumbonema@gmail.com
+    mail2: ''
+    adultos_fsalud: '15'
+    adultos_msalud: '17'
+    adultos_fsocial: '10'
+    adultos_msocial: '17'
+    adultos_f: '25'
+    adultos_m: '34'
+    adultos_t: '59'
+    latitud: '9.60203487309646'
+    longitud: '-65.18568277359009'
+    type: Aldea
+    created_at: '2011-06-22 16:16:42'
+    updated_at: '2011-06-22 16:16:54'
+    deleted_at: null
+  Aldea_6:
+    Estado: Estado_3
+    Municipio: Municipio_27
+    Parroquia: Parroquia_98
+    direccion: 'El Tigre, 3ra. Calle Sur Nro. 109. Entre La Novena y Novena Bis. Diagonal al Colegio Villa Magica a ocho cuadras después del Banco Venezuela.'
+    nombre: 'Fundación Civil Amigos del Enfermo Mental FUNDACADEN (CEPASAM)'
+    responsable: 'Maria A. Galindez'
+    telf1: '04168834833'
+    telf2: '02832316230'
+    mail1: galiwais@hotmail.com
+    mail2: ''
+    adultos_fsalud: '7'
+    adultos_msalud: '7'
+    adultos_fsocial: '0'
     adultos_msocial: '0'
-    adultos_f: '13'
-    adultos_m: '3'
-    adultos_t: '16'
-    type: Gerogranja
-    created_at: '2011-04-20 21:22:20'
-    updated_at: '2011-05-11 16:40:37'
-    deleted_at: null
-Refugio:
-  Refugio_12:
-    Estado: Estado_9
-    Municipio: Municipio_92
-    Parroquia: Parroquia_315
-    direccion: 'Los alacranes, Calle 5'
-    nombre: INTTT
-    responsable: 'Sargento Pedro Rodriguez'
-    telf1: '4234544'
-    telf2: ''
-    mail1: prodriguez@gmail.com
-    mail2: ''
-    adultos_fsalud: '2'
-    adultos_msalud: '3'
-    adultos_fsocial: '4'
-    adultos_msocial: '5'
-    adultos_f: '6'
-    adultos_m: '8'
+    adultos_f: '7'
+    adultos_m: '7'
     adultos_t: '14'
-    type: Refugio
-    created_at: '2011-04-28 11:33:19'
-    updated_at: '2011-05-11 16:35:12'
+    latitud: '8.88333'
+    longitud: '-64.25'
+    type: Aldea
+    created_at: '2011-06-22 16:27:16'
+    updated_at: '2011-06-22 16:27:16'
+    deleted_at: null
+  Aldea_7:
+    Estado: Estado_4
+    Municipio: Municipio_31
+    Parroquia: Parroquia_109
+    direccion: 'Av. Ppal. de Biruaca.Sector las Palmas cerca de la inspectoria de transito.'
+    nombre: ' Nuestra Señora de Coromoto'
+    responsable: 'Sor Rosa Beltran'
+    telf1: '02473641029'
+    telf2: '04243089631'
+    mail1: hermanitasbiruaca@hotmail.com
+    mail2: abuelos.inass@gmail.com
+    adultos_fsalud: '10'
+    adultos_msalud: '17'
+    adultos_fsocial: '9'
+    adultos_msocial: '17'
+    adultos_f: '19'
+    adultos_m: '34'
+    adultos_t: '53'
+    latitud: '7.848945958805774'
+    longitud: '-67.51699447631836'
+    type: Aldea
+    created_at: '2011-06-22 16:34:27'
+    updated_at: '2011-06-22 16:34:27'
+    deleted_at: null
+  Aldea_8:
+    Estado: Estado_5
+    Municipio: Municipio_49
+    Parroquia: Parroquia_163
+    direccion: 'Carretera Nacional Cagua Villa de Cura Urb. Funda Cagua Vía Hidrocentro. Falda del cerro el Empalado Galpón el hogar de los abuelo.'
+    nombre: 'Fundación el Hogar de los Abuelos'
+    responsable: 'Yudith Belandria'
+    telf1: '04129509989'
+    telf2: '02443959447'
+    mail1: hogar_abueloscagua@hotmail.com
+    mail2: ''
+    adultos_fsalud: '4'
+    adultos_msalud: '14'
+    adultos_fsocial: '4'
+    adultos_msocial: '14'
+    adultos_f: '8'
+    adultos_m: '28'
+    adultos_t: '36'
+    latitud: '10.144297384723417'
+    longitud: '-67.44335174560547'
+    type: Aldea
+    created_at: '2011-06-22 16:43:52'
+    updated_at: '2011-06-22 17:50:58'
     deleted_at: null
 Estado:
   Estado_1:
@@ -3171,9 +3095,9 @@ Parroquia:
     deleted_at: null
   Parroquia_129:
     Municipio: Municipio_37
-    nombre: 'Sin Parroquia'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'San Mateo'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_130:
     Municipio: Municipio_38
@@ -3189,117 +3113,117 @@ Parroquia:
     deleted_at: null
   Parroquia_132:
     Municipio: Municipio_39
-    nombre: 'No Urbana Choron'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: Choroni
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_133:
     Municipio: Municipio_39
-    nombre: 'Urbana Las Delicias'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Las Delicias'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_134:
     Municipio: Municipio_39
-    nombre: 'Urbana Madre Maria de San'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Madre Maria de San Jose'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_135:
     Municipio: Municipio_39
-    nombre: 'Urbana Joaquin Crespo'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Joaquin Crespo'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_136:
     Municipio: Municipio_39
-    nombre: 'Urbana Pedro Jose Ovalles'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Pedro Jose Ovalles'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_137:
     Municipio: Municipio_39
-    nombre: 'Urbana Jose Casanova Godoy'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Jose Casanova Godoy'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_138:
     Municipio: Municipio_39
-    nombre: 'Urbana Andres Eloy Blanco'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Andres Eloy Blanco'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_139:
     Municipio: Municipio_39
-    nombre: 'Urbana Los Tacariguas'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Los Tacariguas'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_140:
     Municipio: Municipio_40
-    nombre: 'Sin Parroquia'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Santa Cruz'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_141:
     Municipio: Municipio_41
-    nombre: 'Jose Felix Ribas'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'La Victoria'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_142:
     Municipio: Municipio_41
-    nombre: 'Urbana Castor Nieves Rios'
-    created_at: '2011-03-31 18:36:39'
-    updated_at: '2011-03-31 18:36:39'
+    nombre: 'Castor Nieves Rios'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_143:
     Municipio: Municipio_41
-    nombre: 'No Urbana Las Guacamayas'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Las Guacamayas'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_144:
     Municipio: Municipio_41
-    nombre: 'No Urbana Pao de Zarate'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Pao de Zarate'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_145:
     Municipio: Municipio_41
-    nombre: 'No Urbana Zuata'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: Zuata
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_146:
     Municipio: Municipio_42
-    nombre: 'Sin Parroquia'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'El Consejo'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_147:
     Municipio: Municipio_43
-    nombre: Libertador
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Palo Negro'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_148:
     Municipio: Municipio_43
-    nombre: 'No Urbana San Martin de Porres'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'San Martin de Porres'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_149:
     Municipio: Municipio_44
-    nombre: 'Mario Briceño Iragorry'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'El Limon'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_150:
     Municipio: Municipio_44
-    nombre: 'Urbana Caña de Azucar'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Caña de Azucar'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_151:
     Municipio: Municipio_45
@@ -3309,81 +3233,81 @@ Parroquia:
     deleted_at: null
   Parroquia_152:
     Municipio: Municipio_45
-    nombre: 'No Urbana Gairipa'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: Guiripa
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_153:
     Municipio: Municipio_45
-    nombre: 'No Urbana Ollas de Caramacate'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Ollas de Caramacate'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_154:
     Municipio: Municipio_45
-    nombre: 'No Urbana Valle Mor'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Valle Morin'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_155:
     Municipio: Municipio_46
-    nombre: 'Sin Parroquia'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'San Sebastian'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_156:
     Municipio: Municipio_47
-    nombre: 'Santiago Mariño'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: Turmero
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_157:
     Municipio: Municipio_47
-    nombre: 'No Urbana Arevalo Aponte'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Arevalo Aponte'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_158:
     Municipio: Municipio_47
-    nombre: 'No Urbana Chuao'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: Chuao
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_159:
     Municipio: Municipio_47
-    nombre: 'No Urbana Saman de Gaere'
-    created_at: '2011-03-31 18:36:40'
-    updated_at: '2011-03-31 18:36:40'
+    nombre: 'Saman de Guere'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_160:
     Municipio: Municipio_47
-    nombre: 'No Urbana Alfredo Pacheco Miranda'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Alfredo Pacheco Miranda'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_161:
     Municipio: Municipio_48
-    nombre: 'Santos Michelena'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Las Tejerias'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_162:
     Municipio: Municipio_48
-    nombre: 'No Urbana Tiara'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: Tiara
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_163:
     Municipio: Municipio_49
-    nombre: Sucre
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: Cagua
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_164:
     Municipio: Municipio_49
-    nombre: 'No Urbana Bella Vista'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Bella Vista'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_165:
     Municipio: Municipio_50
@@ -3393,81 +3317,81 @@ Parroquia:
     deleted_at: null
   Parroquia_166:
     Municipio: Municipio_51
-    nombre: Urdaneta
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: Barbacoas
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_167:
     Municipio: Municipio_51
-    nombre: 'No Urbana Las Peñitas'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Las Peñitas'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_168:
     Municipio: Municipio_51
-    nombre: 'No Urbana San Francisco de Cara'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'San Francisco de Cara'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_169:
     Municipio: Municipio_51
-    nombre: 'No Urbana Taguay'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: Taguay
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_170:
     Municipio: Municipio_52
-    nombre: Zamora
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Villa de Cura'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_171:
     Municipio: Municipio_52
-    nombre: 'No Urbana Magdaleno'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: Magdaleno
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_172:
     Municipio: Municipio_52
-    nombre: 'No Urbana San Francisco de As'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'San Francisco de Asis'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_173:
     Municipio: Municipio_52
-    nombre: 'No Urbana Valles de Tucutunemo'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Valles de Tucutunemo'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_174:
     Municipio: Municipio_52
-    nombre: 'No Urbana Augusto Mijares'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Augusto Mijares'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_175:
     Municipio: Municipio_53
-    nombre: 'Francisco Linares Alcantara'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Santa Rita'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_176:
     Municipio: Municipio_53
-    nombre: 'No Urbana Francisco de Miranda'
-    created_at: '2011-03-31 18:36:41'
-    updated_at: '2011-03-31 18:36:41'
+    nombre: 'Francisco de Miranda'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_177:
     Municipio: Municipio_53
-    nombre: 'No Urbana Monseñor Feliciano Gonzales'
-    created_at: '2011-03-31 18:36:42'
-    updated_at: '2011-03-31 18:36:42'
+    nombre: 'Monseñor Feliciano Gonzales'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_178:
     Municipio: Municipio_54
-    nombre: 'Sin Parroquia'
-    created_at: '2011-03-31 18:36:42'
-    updated_at: '2011-03-31 18:36:42'
+    nombre: 'Ocumare de la Costa'
+    created_at: '2011-03-31 18:36:00'
+    updated_at: '2011-03-31 18:36:00'
     deleted_at: null
   Parroquia_179:
     Municipio: Municipio_55
@@ -8468,7 +8392,7 @@ Parroquia:
     updated_at: '2011-03-31 18:37:28'
     deleted_at: null
   Parroquia_1012:
-    Municipio: Municipio_49
+    Municipio: Municipio_311
     nombre: 'Sin Parroquia'
     created_at: '2011-03-31 18:37:28'
     updated_at: '2011-03-31 18:37:28'
@@ -8924,55 +8848,55 @@ Parroquia:
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1088:
-    Municipio: Municipio_85
+    Municipio: Municipio_327
     nombre: Altagracia
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1089:
-    Municipio: Municipio_85
+    Municipio: Municipio_327
     nombre: 'Ana María Campos'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1090:
-    Municipio: Municipio_85
+    Municipio: Municipio_327
     nombre: Faria
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1091:
-    Municipio: Municipio_85
+    Municipio: Municipio_327
     nombre: 'San Antonio'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1092:
-    Municipio: Municipio_85
-    nombre: 'San Jos'
+    Municipio: Municipio_327
+    nombre: 'San Jose'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1093:
-    Municipio: Municipio_33
+    Municipio: Municipio_328
     nombre: Sinamaica
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1094:
-    Municipio: Municipio_33
+    Municipio: Municipio_328
     nombre: 'Alta Guajira'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1095:
-    Municipio: Municipio_33
+    Municipio: Municipio_328
     nombre: 'Elías Sanchez Rubio'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1096:
-    Municipio: Municipio_33
+    Municipio: Municipio_328
     nombre: Guajira
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
@@ -8996,37 +8920,37 @@ Parroquia:
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1100:
-    Municipio: Municipio_123
+    Municipio: Municipio_330
     nombre: 'San Francisco'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1101:
-    Municipio: Municipio_123
+    Municipio: Municipio_330
     nombre: 'El Bajo'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1102:
-    Municipio: Municipio_123
+    Municipio: Municipio_330
     nombre: 'Domitila Flores'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1103:
-    Municipio: Municipio_123
+    Municipio: Municipio_330
     nombre: 'Francisco Ochoa'
     created_at: '2011-03-31 18:37:33'
     updated_at: '2011-03-31 18:37:33'
     deleted_at: null
   Parroquia_1104:
-    Municipio: Municipio_123
+    Municipio: Municipio_330
     nombre: 'Los Cortijos'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1105:
-    Municipio: Municipio_123
+    Municipio: Municipio_330
     nombre: 'Marcial Hernández'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
@@ -9056,55 +8980,55 @@ Parroquia:
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1110:
-    Municipio: Municipio_26
+    Municipio: Municipio_332
     nombre: 'Manuel Manrique'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1111:
-    Municipio: Municipio_26
+    Municipio: Municipio_332
     nombre: 'Rafael María Baralt'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1112:
-    Municipio: Municipio_26
+    Municipio: Municipio_332
     nombre: 'Rafael Urdaneta'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1113:
-    Municipio: Municipio_49
+    Municipio: Municipio_333
     nombre: Bobures
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1114:
-    Municipio: Municipio_49
+    Municipio: Municipio_333
     nombre: 'El Batey'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1115:
-    Municipio: Municipio_49
+    Municipio: Municipio_333
     nombre: Gibraltar
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1116:
-    Municipio: Municipio_49
+    Municipio: Municipio_333
     nombre: Heras
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1117:
-    Municipio: Municipio_49
+    Municipio: Municipio_333
     nombre: 'Monseñor Arturo Celestino Alvarez'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
     deleted_at: null
   Parroquia_1118:
-    Municipio: Municipio_49
+    Municipio: Municipio_333
     nombre: 'Rómulo Gallegos'
     created_at: '2011-03-31 18:37:34'
     updated_at: '2011-03-31 18:37:34'
@@ -9193,57 +9117,6 @@ Parroquia:
     created_at: '2011-03-31 18:37:36'
     updated_at: '2011-03-31 18:37:36'
     deleted_at: null
-Atencion:
-  Atencion_1:
-    Beneficiario: Beneficiario_1
-    Centro: Residencial_5
-    Estado: Estado_1
-    social: Si
-    salud: No
-    User: sfGuardUser_1
-    created_at: '2011-05-20 13:37:06'
-    updated_at: '2011-05-20 13:37:06'
-    deleted_at: null
-  Atencion_2:
-    Beneficiario: Beneficiario_1
-    Centro: Gerogranja_11
-    Estado: Estado_1
-    social: No
-    salud: Si
-    User: sfGuardUser_2
-    created_at: '2011-05-20 13:37:44'
-    updated_at: '2011-05-20 13:37:44'
-    deleted_at: null
-  Atencion_3:
-    Beneficiario: Beneficiario_2
-    Centro: Gerogranja_10
-    Estado: Estado_2
-    social: Si
-    salud: Si
-    User: sfGuardUser_3
-    created_at: '2011-05-20 13:38:17'
-    updated_at: '2011-05-20 13:38:17'
-    deleted_at: null
-  Atencion_4:
-    Beneficiario: Beneficiario_2
-    Centro: Residencial_3
-    Estado: Estado_2
-    social: Si
-    salud: Si
-    User: sfGuardUser_1
-    created_at: '2011-05-20 13:39:02'
-    updated_at: '2011-05-20 13:39:02'
-    deleted_at: null
-  Atencion_5:
-    Beneficiario: Beneficiario_1
-    Centro: Aldea_7
-    Estado: Estado_1
-    social: No
-    salud: Si
-    User: sfGuardUser_1
-    created_at: '2011-05-20 13:39:34'
-    updated_at: '2011-05-20 13:39:34'
-    deleted_at: null
 sfGuardGroup:
   sfGuardGroup_1:
     name: DC
@@ -9266,10 +9139,10 @@ sfGuardUser:
     password: 123456
     is_active: true
     is_super_admin: false
-    last_login: '2011-05-20 13:38:26'
+    last_login: '2011-06-22 15:03:17'
     cedula: '1234567'
     created_at: '2011-04-28 10:44:53'
-    updated_at: '2011-05-20 13:38:26'
+    updated_at: '2011-06-22 15:03:17'
   sfGuardUser_2:
     first_name: Alexis
     last_name: Limongi
@@ -9280,10 +9153,10 @@ sfGuardUser:
     password: 123456
     is_active: true
     is_super_admin: false
-    last_login: '2011-05-20 13:37:24'
+    last_login: '2011-06-22 12:05:31'
     cedula: '12501993'
     created_at: '2011-04-28 10:47:00'
-    updated_at: '2011-05-20 13:37:24'
+    updated_at: '2011-06-22 12:05:31'
   sfGuardUser_3:
     first_name: Lennyn
     last_name: Limongi
@@ -9294,10 +9167,10 @@ sfGuardUser:
     password: 123456
     is_active: true
     is_super_admin: false
-    last_login: '2011-05-20 13:37:58'
+    last_login: '2011-05-24 18:01:08'
     cedula: '23682872'
     created_at: '2011-04-28 10:48:59'
-    updated_at: '2011-05-20 13:37:58'
+    updated_at: '2011-05-24 18:01:08'
 sfGuardPermission:
   sfGuardPermission_1:
     name: admin
@@ -9364,7 +9237,7 @@ Beneficiario:
     telf_fam: '021296536977'
     fallecido: No
     created_at: '2011-05-16 15:52:48'
-    updated_at: '2011-05-16 17:02:42'
+    updated_at: '2011-05-24 19:01:27'
     deleted_at: null
   Beneficiario_2:
     ci: '23695698'
@@ -9384,7 +9257,7 @@ Beneficiario:
     telf_fam: '021296536977'
     fallecido: No
     created_at: '2011-05-16 15:55:53'
-    updated_at: '2011-05-16 16:02:10'
+    updated_at: '2011-05-24 19:02:34'
     deleted_at: null
 UserEstado:
   UserEstado_1_1:
