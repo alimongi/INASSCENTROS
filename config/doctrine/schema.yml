@@ -144,16 +144,16 @@ Centro:
       notnull: false
       notblank: false
       minlength: 0
-    adultos_fsalud:
-      type: integer(4)
-      notnull: false
     adultos_msalud:
       type: integer(4)
       notnull: false
-    adultos_fsocial:
+    adultos_fsalud:
       type: integer(4)
       notnull: false
     adultos_msocial:
+      type: integer(4)
+      notnull: false
+    adultos_fsocial:
       type: integer(4)
       notnull: false
     adultos_f:

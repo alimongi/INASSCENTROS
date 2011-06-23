@@ -16,10 +16,10 @@
  * @property string $telf2
  * @property string $mail1
  * @property string $mail2
- * @property integer $adultos_fsalud
  * @property integer $adultos_msalud
- * @property integer $adultos_fsocial
+ * @property integer $adultos_fsalud
  * @property integer $adultos_msocial
+ * @property integer $adultos_fsocial
  * @property integer $adultos_f
  * @property integer $adultos_m
  * @property integer $adultos_t
@@ -42,10 +42,10 @@
  * @method string              getTelf2()           Returns the current record's "telf2" value
  * @method string              getMail1()           Returns the current record's "mail1" value
  * @method string              getMail2()           Returns the current record's "mail2" value
- * @method integer             getAdultosFsalud()   Returns the current record's "adultos_fsalud" value
  * @method integer             getAdultosMsalud()   Returns the current record's "adultos_msalud" value
- * @method integer             getAdultosFsocial()  Returns the current record's "adultos_fsocial" value
+ * @method integer             getAdultosFsalud()   Returns the current record's "adultos_fsalud" value
  * @method integer             getAdultosMsocial()  Returns the current record's "adultos_msocial" value
+ * @method integer             getAdultosFsocial()  Returns the current record's "adultos_fsocial" value
  * @method integer             getAdultosF()        Returns the current record's "adultos_f" value
  * @method integer             getAdultosM()        Returns the current record's "adultos_m" value
  * @method integer             getAdultosT()        Returns the current record's "adultos_t" value
@@ -67,10 +67,10 @@
  * @method Centro              setTelf2()           Sets the current record's "telf2" value
  * @method Centro              setMail1()           Sets the current record's "mail1" value
  * @method Centro              setMail2()           Sets the current record's "mail2" value
- * @method Centro              setAdultosFsalud()   Sets the current record's "adultos_fsalud" value
  * @method Centro              setAdultosMsalud()   Sets the current record's "adultos_msalud" value
- * @method Centro              setAdultosFsocial()  Sets the current record's "adultos_fsocial" value
+ * @method Centro              setAdultosFsalud()   Sets the current record's "adultos_fsalud" value
  * @method Centro              setAdultosMsocial()  Sets the current record's "adultos_msocial" value
+ * @method Centro              setAdultosFsocial()  Sets the current record's "adultos_fsocial" value
  * @method Centro              setAdultosF()        Sets the current record's "adultos_f" value
  * @method Centro              setAdultosM()        Sets the current record's "adultos_m" value
  * @method Centro              setAdultosT()        Sets the current record's "adultos_t" value
@@ -162,22 +162,22 @@ abstract class BaseCentro extends sfDoctrineRecord
              'minlength' => 0,
              'length' => 120,
              ));
-        $this->hasColumn('adultos_fsalud', 'integer', 4, array(
-             'type' => 'integer',
-             'notnull' => false,
-             'length' => 4,
-             ));
         $this->hasColumn('adultos_msalud', 'integer', 4, array(
              'type' => 'integer',
              'notnull' => false,
              'length' => 4,
              ));
-        $this->hasColumn('adultos_fsocial', 'integer', 4, array(
+        $this->hasColumn('adultos_fsalud', 'integer', 4, array(
              'type' => 'integer',
              'notnull' => false,
              'length' => 4,
              ));
         $this->hasColumn('adultos_msocial', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('adultos_fsocial', 'integer', 4, array(
              'type' => 'integer',
              'notnull' => false,
              'length' => 4,
