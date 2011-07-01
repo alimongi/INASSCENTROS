@@ -13,8 +13,14 @@ class gerogranjasActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-     $this->gerogranjas = Doctrine::getTable('Gerogranja')
-    ->getListado($ids);
+//     $this->gerogranjas = Doctrine::getTable('Gerogranja')->getListado($ids);
+
+    $page = $request->getParameter('pagina', 1);
+    $this->gerogranjas = Doctrine::getTable('Gerogranja')->getListPager($ids, $page);
+    $this->haveToPaginate = Doctrine::getTable('Gerogranja')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Gerogranja')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Gerogranja')->getTotalPages();
+    $this->menu = Doctrine::getTable('Gerogranja')->getDisplay(array(), true);
   }
 
   public function executeGerIndex(sfWebRequest $request)

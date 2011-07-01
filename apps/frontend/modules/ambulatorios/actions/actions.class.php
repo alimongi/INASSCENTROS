@@ -13,8 +13,15 @@ class ambulatoriosActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->ambulatorios = Doctrine::getTable('Ambulatorio')
-    ->getListado($ids);
+//      $this->ambulatorios = Doctrine::getTable('Ambulatorio')->getListado($ids);
+
+    $page = $request->getParameter('pagina', 1);
+    $this->ambulatorios = Doctrine::getTable('Ambulatorio')->getListPager($ids, $page);
+    $this->haveToPaginate = Doctrine::getTable('Ambulatorio')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Ambulatorio')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Ambulatorio')->getTotalPages();
+    $this->menu = Doctrine::getTable('Ambulatorio')->getDisplay(array(), true);
+
   }
 
   public function executeAmbIndex(sfWebRequest $request)

@@ -13,8 +13,13 @@ class residencialesActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
    $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-   $this->residencials = Doctrine::getTable('Residencial')
-  ->getListado($ids);
+//   $this->residencials = Doctrine::getTable('Residencial')->getListado($ids);
+    $page = $request->getParameter('pagina', 1);
+    $this->residencials = Doctrine::getTable('Residencial')->getListPager($ids, $page);
+    $this->haveToPaginate = Doctrine::getTable('Residencial')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Residencial')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Residencial')->getTotalPages();
+    $this->menu = Doctrine::getTable('Residencial')->getDisplay(array(), true);
   }
 
     public function executeResIndex(sfWebRequest $request)

@@ -13,8 +13,15 @@ class aldeasActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-    $this->aldeas = Doctrine::getTable('Aldea')
-    ->getListado($ids);
+//    $this->aldeas = Doctrine::getTable('Aldea')->getListado($ids);}
+    $page = $request->getParameter('pagina', 1);
+    $this->aldeas = Doctrine::getTable('Aldea')->getListPager($ids, $page);
+    $this->haveToPaginate = Doctrine::getTable('Aldea')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Aldea')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Aldea')->getTotalPages();
+    $this->menu = Doctrine::getTable('Aldea')->getDisplay(array(), true);
+
+
   }
 
   public function executeAldIndex(sfWebRequest $request)

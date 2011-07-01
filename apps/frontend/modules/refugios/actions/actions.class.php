@@ -13,8 +13,14 @@ class refugiosActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->refugios = Doctrine::getTable('Refugio')
-    ->getListado($ids);
+//      $this->refugios = Doctrine::getTable('Refugio')->getListado($ids);
+
+    $page = $request->getParameter('pagina', 1);
+    $this->refugios = Doctrine::getTable('Refugio')->getListPager($ids, $page);
+    $this->haveToPaginate = Doctrine::getTable('Refugio')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Refugio')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Refugio')->getTotalPages();
+    $this->menu = Doctrine::getTable('Refugio')->getDisplay(array(), true);
   }
   
   public function executeRefIndex(sfWebRequest $request)

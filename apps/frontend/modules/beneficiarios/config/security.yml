@@ -8,13 +8,11 @@ edit:
   credentials: [admin]
 
 show:
-  credentials: [[admin, usersal, usercon]]
+  credentials: [admin]
 
 delete:
   credentials: [admin]
 
 index:
-  credentials: [[admin, usersal, usercon]]
+  credentials: [admin]
 
-Refindex:
-  credentials: [[admin, usersal, usercon]]

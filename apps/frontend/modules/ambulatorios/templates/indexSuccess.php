@@ -2,6 +2,7 @@
 
 
 <table border="0" cellpadding="0" cellspacing="0">
+    <caption><?php echo $resultados ?> Centros Ambulatorios en <?php echo $paginas ?> p&aacute;gina(s)</caption>
   <thead>
     <tr class="tabla_th">
       <th> Identificador </th>
@@ -36,7 +37,9 @@
     <?php endforeach; ?>
   </tbody>
 </table>
-
+<?php if($haveToPaginate): ?>
+<?php echo html_entity_decode($menu) ?>
+<?php endif;?>
 <div class="boton_fin">
   <a href="<?php echo url_for('ambulatorios/new') ?>" class="link-blanco"> Nuevo </a>
 </div>

@@ -5,6 +5,7 @@ dev:
   url_absoluta: http://inasscentros/backend_dev.php
 
 all:
+  limite: 15
   .ys_jquery_revolutions_plugins:
     ### To load jQuery from ajax.googleapis.com:
     ### - jquery.min.js
