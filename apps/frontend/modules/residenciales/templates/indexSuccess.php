@@ -18,7 +18,14 @@
       <th> Total Adultos </th>
     </tr>
   </thead>
-  
+
+
+<?php if($haveToPaginate): ?>
+<div class="onlycssmenu-paging">
+<?php echo html_entity_decode($menu) ?>
+</div>
+<?php endif;?>
+
   <tbody>
     <?php foreach ($residencials as $residencial): ?>
     <tr class="tabla_td">
@@ -38,7 +45,9 @@
   </tbody>
 </table>
 <?php if($haveToPaginate): ?>
+<div class="onlycssmenu-paging">
 <?php echo html_entity_decode($menu) ?>
+</div>
 <?php endif;?>
 
 <div class="boton_fin">

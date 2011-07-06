@@ -396,3 +396,38 @@ table a:active
 {
 	color                 : #003366;
 }
+
+
+    .onlycssmenu-paging, .onlycssmenu-paging a, .onlycssmenu-paging span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    }
+    .onlycssmenu-paging {
+    height:15px;
+    line-height:15px;
+    margin:5px;
+    margin-left: 300px;
+    padding:0;
+    }
+    .onlycssmenu-paging a, .onlycssmenu-paging span {
+    background:#dfe5e6;
+    float:left;
+    padding:0 8px;
+    margin:0 2px;
+    border:solid 1px #a5aeb6;
+    color:#51626f;
+    text-decoration:none;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    }
+    .onlycssmenu-paging span {
+    background:#FFFFFF;
+    color:#51626f;
+    border-color:#8996a0;
+    }
+    .onlycssmenu-paging a:hover, .onlycssmenu-paging .active {
+    background:#FFFFFF;
+    color:#626262;
+    border-color:#8996a0;
+    }
+
