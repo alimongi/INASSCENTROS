@@ -22,7 +22,13 @@ class CentroForm extends BaseCentroForm
           'adultos_fsalud' => 'Adultas atendidas en Salud',
           'adultos_msalud' => 'Adultos atendidos en Salud',
           'adultos_fsocial' => 'Adultas atendidas en Social',
-          'adultos_msocial' => 'Adultos atendidos en Social'
+          'adultos_msocial' => 'Adultos atendidos en Social',
+          'adultos_feconomico' => 'Adultas con atención Economica',
+          'adultos_meconomico' => 'Adultos con atención Economica',
+          'adultos_ftecnica' => 'Adultas con atención Técnica',
+          'adultos_mtecnica' => 'Adultos con atención Técnica',
+          'adultos_fproductiva' => 'Adultas con atención Productiva',
+          'adultos_mproductiva' => 'Adultos con atención Productiva'
       ));
   }
 }

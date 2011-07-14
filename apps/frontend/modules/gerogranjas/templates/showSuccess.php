@@ -71,6 +71,30 @@
       <td><?php echo $gerogranja->getAdultosFsocial() ?></td>
     </tr>
     <tr>
+      <th>Adultos con Atención Economica:</th>
+      <td><?php echo $gerogranja->getAdultosMeconomico() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Economica:</th>
+      <td><?php echo $gerogranja->getAdultosFeconomico() ?></td>
+    </tr>
+    <tr>
+      <th>Adultos con Atención Técnica:</th>
+      <td><?php echo $gerogranja->getAdultosMtecnica() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Técnica:</th>
+      <td><?php echo $gerogranja->getAdultosFtecnica() ?></td>
+    </tr>
+    <tr>
+      <th>Adultos con Atención Productiva:</th>
+      <td><?php echo $gerogranja->getAdultosMproductiva() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Productiva:</th>
+      <td><?php echo $gerogranja->getAdultosFproductiva() ?></td>
+    </tr>
+    <tr>
       <th>Adultos Atendidos:</th>
       <td><?php echo $gerogranja->getAdultosM() ?></td>
     </tr>

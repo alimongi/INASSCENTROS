@@ -156,6 +156,24 @@ Centro:
     adultos_fsocial:
       type: integer(4)
       notnull: false
+    adultos_meconomico:
+      type: integer(4)
+      notnull: false
+    adultos_feconomico:
+      type: integer(4)
+      notnull: false
+    adultos_mtecnica:
+      type: integer(4)
+      notnull: false
+    adultos_ftecnica:
+      type: integer(4)
+      notnull: false
+    adultos_mproductiva:
+      type: integer(4)
+      notnull: false
+    adultos_fproductiva:
+      type: integer(4)
+      notnull: false
     adultos_f:
       type: integer(4)
       notnull: false

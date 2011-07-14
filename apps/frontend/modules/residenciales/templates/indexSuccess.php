@@ -9,10 +9,6 @@
       <th> Estado </th>
       <th> Nombre </th>
       <th> Responsable </th>
-      <th> Adultos Atendidos Salud </th>
-      <th> Adultas Atendidas Salud </th>
-      <th> Adultos Atendidos Social </th>
-      <th> Adultas Atendidas Social </th>
       <th> Adultos Atendidos </th>
       <th> Adultas Atendidas </th>
       <th> Total Adultos </th>
@@ -33,10 +29,6 @@
       <td><?php echo $residencial->getEstado() ?></td>
       <td><?php echo $residencial->getNombre() ?></td>
       <td><?php echo $residencial->getResponsable() ?></td>
-      <td><?php echo $residencial->getAdultosMsalud() ?></td>
-      <td><?php echo $residencial->getAdultosFsalud() ?></td>
-      <td><?php echo $residencial->getAdultosMsocial() ?></td>
-      <td><?php echo $residencial->getAdultosFsocial() ?></td>
       <td><?php echo $residencial->getAdultosM() ?></td>
       <td><?php echo $residencial->getAdultosF() ?></td>
       <td><?php echo $residencial->getAdultosT() ?></td>

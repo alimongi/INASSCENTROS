@@ -70,6 +70,30 @@
       <td><?php echo $aldea->getAdultosFsocial() ?></td>
     </tr>
     <tr>
+      <th>Adultos con Atención Economica:</th>
+      <td><?php echo $aldea->getAdultosMeconomico() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Economica:</th>
+      <td><?php echo $aldea->getAdultosFeconomico() ?></td>
+    </tr>
+    <tr>
+      <th>Adultos con Atención Técnica:</th>
+      <td><?php echo $aldea->getAdultosMtecnica() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Técnica:</th>
+      <td><?php echo $aldea->getAdultosFtecnica() ?></td>
+    </tr>
+    <tr>
+      <th>Adultos con Atención Productiva:</th>
+      <td><?php echo $aldea->getAdultosMproductiva() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Productiva:</th>
+      <td><?php echo $aldea->getAdultosFproductiva() ?></td>
+    </tr>
+    <tr>
       <th>Adultos Atendidos:</th>
       <td><?php echo $aldea->getAdultosM() ?></td>
     </tr>

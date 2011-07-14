@@ -72,6 +72,31 @@
       <td><?php echo $refugio->getAdultosFsocial() ?></td>
     </tr>
     <tr>
+      <th>Adultos con Atención Economica:</th>
+      <td><?php echo $refugio->getAdultosMeconomico() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Economica:</th>
+      <td><?php echo $refugio->getAdultosFeconomico() ?></td>
+    </tr>
+    <tr>
+      <th>Adultos con Atención Técnica:</th>
+      <td><?php echo $refugio->getAdultosMtecnica() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Técnica:</th>
+      <td><?php echo $refugio->getAdultosFtecnica() ?></td>
+    </tr>
+    <tr>
+      <th>Adultos con Atención Productiva:</th>
+      <td><?php echo $refugio->getAdultosMproductiva() ?></td>
+    </tr>
+    <tr>
+      <th>Adultas con Atención Productiva:</th>
+      <td><?php echo $refugio->getAdultosFproductiva() ?></td>
+    </tr>
+    <tr>
+    <tr>
       <th>Adultos Atendidos:</th>
       <td><?php echo $refugio->getAdultosM() ?></td>
     </tr>

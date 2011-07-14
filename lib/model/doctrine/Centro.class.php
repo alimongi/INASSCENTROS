@@ -21,8 +21,8 @@ class Centro extends BaseCentro
         $conn = $conn ? $conn : $this->getTable()->getConnection();
         $conn->beginTransaction();
         try {
-            $this->setAdultosM($this->getAdultosMsalud() + $this->getAdultosMsocial());
-            $this->setAdultosF($this->getAdultosFsalud() + $this->getAdultosFsocial());
+            $this->setAdultosM($this->getAdultosMsalud() + $this->getAdultosMsocial() + $this->getAdultosMeconomico() + $this->getAdultosMtecnica() + $this->getAdultosMproductiva());
+            $this->setAdultosF($this->getAdultosFsalud() + $this->getAdultosFsocial() + $this->getAdultosFeconomico() + $this->getAdultosFtecnica() + $this->getAdultosFproductiva());
             $this->setAdultosT($this->getAdultosM() + $this->getAdultosF());
             $ret = parent::save($conn);
             $conn->commit();

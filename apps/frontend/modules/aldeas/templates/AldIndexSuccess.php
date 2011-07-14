@@ -103,6 +103,159 @@
 </div>
 
 
+<h2>Atención Económica</h2>
+<table border="0" cellpadding="0" cellspacing="0">
+  <thead>
+    <tr class="tabla_th">
+<!--      <th> Identificador </th>-->
+      <th> Estado </th>
+      <th> Nombre </th>
+<!--      <th> Responsable </th>-->
+      <th> Adultos Atención Económica</th>
+      <th> Adultas Atención Económica</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <?php  $pormaldeaE = 0; ?>
+    <?php  $porfaldeaE = 0; ?>
+    <?php  $contaldea = 0; ?>
+    <?php  $totabuelosaldeaE = 0; ?>
+    <?php  $totabuelasaldeaE = 0; ?>
+    <?php  $totgloaldeaE = 0; ?>
+    <?php foreach ($aldeas as $aldea): ?>
+    <?php ++$contaldea; ?>
+    <tr class="tabla_td">
+<!--      <td><a><?php echo $aldea->getId() ?></a></td>-->
+      <td><?php echo $aldea->getEstado() ?></td>
+      <td><?php echo $aldea->getNombre() ?></td>
+<!--      <td><?php echo $aldea->getResponsable() ?></td>-->
+      <td><?php echo $aldea->getAdultosMeconomico() ?></td>
+      <td><?php echo $aldea->getAdultosFeconomico() ?></td>
+    </tr>
+    <?php $totabuelosaldeaE = $totabuelosaldeaE + $aldea->getAdultosMeconomico(); ?>
+    <?php $totabuelasaldeaE = $totabuelasaldeaE + $aldea->getAdultosFeconomico(); ?>
+    <?php endforeach; ?>
+    <?php $totgloaldeaE = $totabuelasaldeaE + $totabuelosaldeaE; ?>
+  </tbody>
+</table>
+<table class="tableform">
+<tr>
+    <td><?php echo "Total Aldeas:", " ", $contaldea; ?></td>
+    <?php $pormaldeaE = ($totabuelosaldeaE * 100) / $totgloaldeaE; ?>
+    <td><?php echo "Total Abuelos Atención Económica:", " ", $totabuelosaldeaE, " -- ", number_format($pormaldeaE, 2), "%"; ?></td>
+    <?php $porfaldeaS = ($totabuelasaldeaE * 100) / $totgloaldeaE; ?>
+    <td><?php echo "Total Abuelas Atención Económica:", " ", $totabuelasaldeaE, " -- ", number_format($porfaldeaS, 2), "%"; ?></td>
+    <td><?php echo "Total Global Atención Económica:", " ", $totgloaldeaE; ?></td>
+</tr>
+</table>
+<div>
+<?php echo image_tag('graphpico/graphpastel.php?dat='.$totabuelasaldeaE.','.$totabuelosaldeaE.'&bkg=E6E6E6&wdt=200&hgt=100') ?>
+</div>
+
+
+<h2>Atención Técnica</h2>
+<table border="0" cellpadding="0" cellspacing="0">
+  <thead>
+    <tr class="tabla_th">
+<!--      <th> Identificador </th>-->
+      <th> Estado </th>
+      <th> Nombre </th>
+<!--      <th> Responsable </th>-->
+      <th> Adultos Atención Técnica</th>
+      <th> Adultas Atención Técnica</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <?php  $pormaldeaT = 0; ?>
+    <?php  $porfaldeaT = 0; ?>
+    <?php  $contaldea = 0; ?>
+    <?php  $totabuelosaldeaT = 0; ?>
+    <?php  $totabuelasaldeaT = 0; ?>
+    <?php  $totgloaldeaT = 0; ?>
+    <?php foreach ($aldeas as $aldea): ?>
+    <?php ++$contaldea; ?>
+    <tr class="tabla_td">
+<!--      <td><a><?php echo $aldea->getId() ?></a></td>-->
+      <td><?php echo $aldea->getEstado() ?></td>
+      <td><?php echo $aldea->getNombre() ?></td>
+<!--      <td><?php echo $aldea->getResponsable() ?></td>-->
+      <td><?php echo $aldea->getAdultosMtecnica() ?></td>
+      <td><?php echo $aldea->getAdultosFtecnica() ?></td>
+    </tr>
+    <?php $totabuelosaldeaT = $totabuelosaldeaT + $aldea->getAdultosMtecnica(); ?>
+    <?php $totabuelasaldeaT = $totabuelasaldeaT + $aldea->getAdultosFtecnica(); ?>
+    <?php endforeach; ?>
+    <?php $totgloaldeaT = $totabuelasaldeaT + $totabuelosaldeaT; ?>
+  </tbody>
+</table>
+<table class="tableform">
+<tr>
+    <td><?php echo "Total Aldeas:", " ", $contaldea; ?></td>
+    <?php $pormaldeaT = ($totabuelosaldeaT * 100) / $totgloaldeaT; ?>
+    <td><?php echo "Total Abuelos Atención Técnica:", " ", $totabuelosaldeaT, " -- ", number_format($pormaldeaT, 2), "%"; ?></td>
+    <?php $porfaldeaT = ($totabuelasaldeaT * 100) / $totgloaldeaT; ?>
+    <td><?php echo "Total Abuelas Atención Técnica:", " ", $totabuelasaldeaT, " -- ", number_format($porfaldeaT, 2), "%"; ?></td>
+    <td><?php echo "Total Global Atención Técnica:", " ", $totgloaldeaT; ?></td>
+</tr>
+</table>
+<div>
+<?php echo image_tag('graphpico/graphpastel.php?dat='.$totabuelasaldeaT.','.$totabuelosaldeaT.'&bkg=E6E6E6&wdt=200&hgt=100') ?>
+</div>
+
+
+<h2>Atención Productiva</h2>
+<table border="0" cellpadding="0" cellspacing="0">
+  <thead>
+    <tr class="tabla_th">
+<!--      <th> Identificador </th>-->
+      <th> Estado </th>
+      <th> Nombre </th>
+<!--      <th> Responsable </th>-->
+      <th> Adultos Atención Productiva</th>
+      <th> Adultas Atención Productiva</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <?php  $pormaldeaP = 0; ?>
+    <?php  $porfaldeaP = 0; ?>
+    <?php  $contaldea = 0; ?>
+    <?php  $totabuelosaldeaP = 0; ?>
+    <?php  $totabuelasaldeaP = 0; ?>
+    <?php  $totgloaldeaP = 0; ?>
+    <?php foreach ($aldeas as $aldea): ?>
+    <?php ++$contaldea; ?>
+    <tr class="tabla_td">
+<!--      <td><a><?php echo $aldea->getId() ?></a></td>-->
+      <td><?php echo $aldea->getEstado() ?></td>
+      <td><?php echo $aldea->getNombre() ?></td>
+<!--      <td><?php echo $aldea->getResponsable() ?></td>-->
+      <td><?php echo $aldea->getAdultosMproductiva() ?></td>
+      <td><?php echo $aldea->getAdultosFproductiva() ?></td>
+    </tr>
+    <?php $totabuelosaldeaP = $totabuelosaldeaP + $aldea->getAdultosMproductiva(); ?>
+    <?php $totabuelasaldeaP = $totabuelasaldeaP + $aldea->getAdultosFproductiva(); ?>
+    <?php endforeach; ?>
+    <?php $totgloaldeaP = $totabuelasaldeaP + $totabuelosaldeaP; ?>
+  </tbody>
+</table>
+<table class="tableform">
+<tr>
+    <td><?php echo "Total Aldeas:", " ", $contaldea; ?></td>
+    <?php $pormaldeaP = ($totabuelosaldeaP * 100) / $totgloaldeaP; ?>
+    <td><?php echo "Total Abuelos Atención Productiva:", " ", $totabuelosaldeaP, " -- ", number_format($pormaldeaP, 2), "%"; ?></td>
+    <?php $porfaldeaP = ($totabuelasaldeaP * 100) / $totgloaldeaP; ?>
+    <td><?php echo "Total Abuelas Atención Productiva:", " ", $totabuelasaldeaP, " -- ", number_format($porfaldeaP, 2), "%"; ?></td>
+    <td><?php echo "Total Global Atención Productiva:", " ", $totgloaldeaP; ?></td>
+</tr>
+</table>
+<div>
+<?php echo image_tag('graphpico/graphpastel.php?dat='.$totabuelasaldeaP.','.$totabuelosaldeaP.'&bkg=E6E6E6&wdt=200&hgt=100') ?>
+</div>
+
+
 <h2>Atención Total</h2>
 <table border="0" cellpadding="0" cellspacing="0">
   <thead>
@@ -156,8 +309,8 @@
 <?php echo image_tag('graphpico/graphpastel.php?dat='.$totabuelasaldea.','.$totabuelosaldea.'&bkg=E6E6E6&wdt=200&hgt=100') ?>
 </div>
 
-<?php $datos = implode(',', array($totabuelosaldeaS, $totabuelasaldeaS, $totabuelosaldeaSo, $totabuelasaldeaSo)); ?>
-<?php $average = ($totabuelosaldeaS + $totabuelasaldeaS + $totabuelosaldeaSo + $totabuelasaldeaSo) / 4; ?>
+<?php $datos = implode(',', array($totabuelosaldeaS, $totabuelasaldeaS, $totabuelosaldeaSo, $totabuelasaldeaSo, $totabuelosaldeaE, $totabuelasaldeaE, $totabuelosaldeaT, $totabuelasaldeaT, $totabuelosaldeaP, $totabuelasaldeaP)); ?>
+<?php $average = ($totabuelosaldeaS + $totabuelasaldeaS + $totabuelosaldeaSo + $totabuelasaldeaSo + $totabuelosaldeaE + $totabuelasaldeaE + $totabuelosaldeaT + $totabuelasaldeaT + $totabuelosaldeaP + $totabuelasaldeaP) / 10; ?>
 
 <script type="text/javascript">
     var chart
@@ -171,7 +324,7 @@
                 text: 'Atención en Aldeas'
             },
             xAxis: {
-                categories: ['Adultos en Salud', 'Adultas en Salud', 'Adultos en Social', 'Adultas en Social']
+                categories: ['Adultos en Salud', 'Adultas en Salud', 'Adultos en Social', 'Adultas en Social', 'Adultos en Económico', 'Adultas en Económico', 'Adultos en Técnica', 'Adultas en Técnica', 'Adultos en Productivo', 'Adultas en Productivo']
             },
             tooltip: {
                 formatter: function() {

@@ -11,10 +11,10 @@ Aldea:
     telf2: '02485210868'
     mail1: jcamposrivero@yahoo.es
     mail2: ''
-    adultos_fsalud: '13'
     adultos_msalud: '25'
-    adultos_fsocial: '13'
+    adultos_fsalud: '13'
     adultos_msocial: '30'
+    adultos_fsocial: '13'
     adultos_f: '26'
     adultos_m: '55'
     adultos_t: '81'
@@ -35,10 +35,10 @@ Aldea:
     telf2: ''
     mail1: d_marcano2@hotmail.com
     mail2: milbida529@hotmail.com
-    adultos_fsalud: '10'
     adultos_msalud: '20'
-    adultos_fsocial: '10'
+    adultos_fsalud: '10'
     adultos_msocial: '20'
+    adultos_fsocial: '10'
     adultos_f: '20'
     adultos_m: '40'
     adultos_t: '60'
@@ -59,10 +59,10 @@ Aldea:
     telf2: '04269828320'
     mail1: lisbetere_flauriz@hotmail.com
     mail2: ''
-    adultos_fsalud: '6'
     adultos_msalud: '15'
-    adultos_fsocial: '6'
+    adultos_fsalud: '6'
     adultos_msocial: '14'
+    adultos_fsocial: '6'
     adultos_f: '12'
     adultos_m: '29'
     adultos_t: '41'
@@ -83,10 +83,10 @@ Aldea:
     telf2: '04264856057'
     mail1: fumbonema@gmail.com
     mail2: ''
-    adultos_fsalud: '15'
     adultos_msalud: '27'
-    adultos_fsocial: '10'
+    adultos_fsalud: '15'
     adultos_msocial: '27'
+    adultos_fsocial: '10'
     adultos_f: '25'
     adultos_m: '54'
     adultos_t: '79'
@@ -107,10 +107,10 @@ Aldea:
     telf2: '04264856057'
     mail1: fumbonema@gmail.com
     mail2: ''
-    adultos_fsalud: '15'
     adultos_msalud: '17'
-    adultos_fsocial: '10'
+    adultos_fsalud: '15'
     adultos_msocial: '17'
+    adultos_fsocial: '10'
     adultos_f: '25'
     adultos_m: '34'
     adultos_t: '59'
@@ -131,10 +131,10 @@ Aldea:
     telf2: '02832316230'
     mail1: galiwais@hotmail.com
     mail2: ''
-    adultos_fsalud: '7'
     adultos_msalud: '7'
-    adultos_fsocial: '0'
+    adultos_fsalud: '7'
     adultos_msocial: '0'
+    adultos_fsocial: '0'
     adultos_f: '7'
     adultos_m: '7'
     adultos_t: '14'
@@ -155,10 +155,10 @@ Aldea:
     telf2: '04243089631'
     mail1: hermanitasbiruaca@hotmail.com
     mail2: abuelos.inass@gmail.com
-    adultos_fsalud: '10'
     adultos_msalud: '17'
-    adultos_fsocial: '9'
+    adultos_fsalud: '10'
     adultos_msocial: '17'
+    adultos_fsocial: '9'
     adultos_f: '19'
     adultos_m: '34'
     adultos_t: '53'
@@ -179,10 +179,10 @@ Aldea:
     telf2: '02443959447'
     mail1: hogar_abueloscagua@hotmail.com
     mail2: ''
-    adultos_fsalud: '4'
     adultos_msalud: '14'
-    adultos_fsocial: '4'
+    adultos_fsalud: '4'
     adultos_msocial: '14'
+    adultos_fsocial: '4'
     adultos_f: '8'
     adultos_m: '28'
     adultos_t: '36'
@@ -191,6 +191,918 @@ Aldea:
     type: Aldea
     created_at: '2011-06-22 16:43:52'
     updated_at: '2011-06-22 17:50:58'
+    deleted_at: null
+  Aldea_11:
+    Estado: Estado_5
+    Municipio: Municipio_48
+    Parroquia: Parroquia_161
+    direccion: 'Calle Sucre N10 Tejerias Municipio Santos Michelena Edo. Aragua '
+    nombre: 'Fundación Bolivariana de adultos y adultas del Municipio Santos Michelena Edo. Aragua'
+    responsable: 'Coordinador José Luis Castillo'
+    telf1: '04124459410'
+    telf2: '02443342478'
+    mail1: joseluis10@hotmail.com
+    mail2: fundabuelo@hotmail.com
+    adultos_msalud: '36'
+    adultos_fsalud: '32'
+    adultos_msocial: '37'
+    adultos_fsocial: '33'
+    adultos_f: '65'
+    adultos_m: '73'
+    adultos_t: '138'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 14:58:59'
+    updated_at: '2011-06-23 14:58:59'
+    deleted_at: null
+  Aldea_12:
+    Estado: Estado_5
+    Municipio: Municipio_41
+    Parroquia: Parroquia_141
+    direccion: 'Calle Candelaria Sur N°22 Plaza Rivas Casco historico diagonal al IPASME la Victoria y bliblioteca virtual Edo. Aragua '
+    nombre: 'Fundación Casa del Abuelo San Joaquin y Sta Ana'
+    responsable: 'Isbeli Perez/ Yuraima Pernia.'
+    telf1: '04144638916'
+    telf2: '02443230320'
+    mail1: funcabuelo@hotmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '19'
+    adultos_f: '39'
+    adultos_m: '40'
+    adultos_t: '79'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:20:32'
+    updated_at: '2011-06-23 15:20:32'
+    deleted_at: null
+  Aldea_13:
+    Estado: Estado_7
+    Municipio: Municipio_72
+    Parroquia: Parroquia_259
+    direccion: 'Al final de la avenidad perimental a manos izquierda sector los chivos II, calle el Campito.'
+    nombre: 'Fundación Aldea de Encuentro del Adulto Mayor "Dr. Gisela Melgar de Vera".'
+    responsable: 'Coordinador Bellatriz Martinez / Directora de la oficina de desarrollo social  Ilsi  de Muñez.'
+    telf1: '04169904042'
+    telf2: '04249125876'
+    mail1: bella0359@hotmail.com
+    mail2: ''
+    adultos_msalud: '7'
+    adultos_fsalud: '7'
+    adultos_msocial: '8'
+    adultos_fsocial: '8'
+    adultos_f: '15'
+    adultos_m: '15'
+    adultos_t: '30'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:25:48'
+    updated_at: '2011-06-23 15:25:48'
+    deleted_at: null
+  Aldea_14:
+    Estado: Estado_6
+    Municipio: Municipio_63
+    Parroquia: Parroquia_216
+    direccion: 'Barrio 5 de Julio parroquia Ciudad Bolivia a seis cuadras despues de la biblioteca pública Municipal.'
+    nombre: 'Fundación Buen Samaritano'
+    responsable: 'Yoleida Silva '
+    telf1: '04141591458'
+    telf2: '04142584776'
+    mail1: fundacionpedraza@hotmail.com
+    mail2: ''
+    adultos_msalud: '40'
+    adultos_fsalud: '8'
+    adultos_msocial: '40'
+    adultos_fsocial: '7'
+    adultos_f: '15'
+    adultos_m: '80'
+    adultos_t: '95'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:28:28'
+    updated_at: '2011-06-23 15:28:28'
+    deleted_at: null
+  Aldea_15:
+    Estado: Estado_6
+    Municipio: Municipio_61
+    Parroquia: Parroquia_208
+    direccion: 'Calle 27 entre carrera 8 barrio Hospita, despues de la cuadra del IPASMO a la derecha, Santa Barbara.'
+    nombre: 'Fundación casa Hogar El Anciano Feliz.'
+    responsable: 'Digna de Guerrero.'
+    telf1: '04164755996'
+    telf2: '04247256603'
+    mail1: diomar14@yahoo.e.es
+    mail2: ''
+    adultos_msalud: '15'
+    adultos_fsalud: '4'
+    adultos_msocial: '14'
+    adultos_fsocial: '4'
+    adultos_f: '8'
+    adultos_m: '29'
+    adultos_t: '37'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:31:58'
+    updated_at: '2011-06-23 15:31:58'
+    deleted_at: null
+  Aldea_16:
+    Estado: Estado_6
+    Municipio: Municipio_59
+    Parroquia: Parroquia_202
+    direccion: 'Sector San Eleuterio calle San Jose terreno el  Remanso, una cuadra despues de la bodega de Ramiro.'
+    nombre: 'Fundación San Eleuterio'
+    responsable: 'Maria Molina /Jean Briceño'
+    telf1: '04245475092'
+    telf2: '04168026430'
+    mail1: mariamolina80_@hotmail.com
+    mail2: ''
+    adultos_msalud: '12'
+    adultos_fsalud: '7'
+    adultos_msocial: '11'
+    adultos_fsocial: '6'
+    adultos_f: '13'
+    adultos_m: '23'
+    adultos_t: '36'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:37:24'
+    updated_at: '2011-06-23 15:37:24'
+    deleted_at: null
+  Aldea_17:
+    Estado: Estado_8
+    Municipio: Municipio_86
+    Parroquia: Parroquia_294
+    direccion: 'Carretera Bejuma, sector aguirre frente al callejon Morón, a 100 metros antes cachapera churuguara.'
+    nombre: 'A.C Hogares Rurales para Ancianos grupo Santa Ana hogares Santa Ana A.C '
+    responsable: 'Ana Katiuska Chirinos '
+    telf1: '04120362520'
+    telf2: '02494907505'
+    mail1: hogarsantana@gmail.com
+    mail2: ''
+    adultos_msalud: '5'
+    adultos_fsalud: '7'
+    adultos_msocial: '5'
+    adultos_fsocial: '8'
+    adultos_f: '15'
+    adultos_m: '10'
+    adultos_t: '25'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:41:45'
+    updated_at: '2011-06-23 15:41:45'
+    deleted_at: null
+  Aldea_18:
+    Estado: Estado_8
+    Municipio: Municipio_85
+    Parroquia: Parroquia_293
+    direccion: 'Calle marte, entre Bolivar y Paez a media cuadra de la plaza Bolivar Municipio Miranda.'
+    nombre: 'Fundación Amigos del Anciano de Miranda FUNDAMI (Telesfora Pinto)'
+    responsable: 'Yudith Silva de Navas '
+    telf1: '04128536390'
+    telf2: ''
+    mail1: laclinicadelcelularmiranda@hotmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '4'
+    adultos_msocial: '21'
+    adultos_fsocial: '4'
+    adultos_f: '8'
+    adultos_m: '41'
+    adultos_t: '49'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:45:56'
+    updated_at: '2011-06-23 15:45:56'
+    deleted_at: null
+  Aldea_19:
+    Estado: Estado_8
+    Municipio: Municipio_89
+    Parroquia: Parroquia_304
+    direccion: 'San Diego los Arales sector Campo solo, calle principal N5507 punto Ref, frente a la escuela campo solo.'
+    nombre: 'Fundación Familiar Integral Servicio de Adiestramiento y Capacitación Anagogica y Pedagogica FISAC (Mi refugio)'
+    responsable: 'Coordinadora Mildra Chaparro/ Nilaida Martin asistente.'
+    telf1: '02418719871'
+    telf2: '02418711676'
+    mail1: marlene4276767@hotmail.com
+    mail2: nilaida16@hotmail.com
+    adultos_msalud: '17'
+    adultos_fsalud: '19'
+    adultos_msocial: '16'
+    adultos_fsocial: '18'
+    adultos_f: '37'
+    adultos_m: '33'
+    adultos_t: '70'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:51:15'
+    updated_at: '2011-06-23 15:51:15'
+    deleted_at: null
+  Aldea_20:
+    Estado: Estado_8
+    Municipio: Municipio_78
+    Parroquia: Parroquia_277
+    direccion: 'Av. Bolivar entre calle Betancourt y Briceño Mendez frente al comedor San Rafael. Parroquia San Rafael.'
+    nombre: 'Fundacion America de Enriquez'
+    responsable: 'Doctora Emilia de Monte Negro '
+    telf1: '04244427125'
+    telf2: '02497931003'
+    mail1: magalystortolero@hotmail.com
+    mail2: ''
+    adultos_msalud: '8'
+    adultos_fsalud: '2'
+    adultos_msocial: '8'
+    adultos_fsocial: '2'
+    adultos_f: '4'
+    adultos_m: '16'
+    adultos_t: '20'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-23 15:54:44'
+    updated_at: '2011-06-23 15:54:44'
+    deleted_at: null
+  Aldea_21:
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_8
+    direccion: 'La quebradita primera avenidad San Martin parroquia el Paraiso modulo FUNDACOMUNAL '
+    nombre: 'Fundación "Negra Matea"'
+    responsable: 'Magaly Vera '
+    telf1: '04164241308'
+    telf2: '04162069477'
+    mail1: Magalyvera1@hotmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '20'
+    adultos_f: '40'
+    adultos_m: '40'
+    adultos_t: '80'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 08:41:03'
+    updated_at: '2011-06-27 08:41:03'
+    deleted_at: null
+  Aldea_22:
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_18
+    direccion: 'Monte Piedad 23 de Enero, bloque 5 al lado de la iglesia San Pedro.'
+    nombre: 'A.C Orden de los Frailes menores Franciscano'
+    responsable: 'Jose G Carias'
+    telf1: '04142820167'
+    telf2: '02128584727'
+    mail1: Maransibias@hotmail.com
+    mail2: Carias36@hotmail.com
+    adultos_msalud: '13'
+    adultos_fsalud: '10'
+    adultos_msocial: '13'
+    adultos_fsocial: '10'
+    adultos_f: '20'
+    adultos_m: '26'
+    adultos_t: '46'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 08:44:46'
+    updated_at: '2011-06-27 08:44:46'
+    deleted_at: null
+  Aldea_23:
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    direccion: 'Calle principal vista hermosa sector nuevo Horizonte al lado de la casa de la comunidad.'
+    nombre: 'A.C Comite de salud vista hermosa Padre Francisco de la cruz Jordan'
+    responsable: 'Julieta Calderon'
+    telf1: '04124675114'
+    telf2: '02128720502'
+    mail1: casadelasalud@hotmail.com
+    mail2: ''
+    adultos_msalud: '8'
+    adultos_fsalud: '15'
+    adultos_msocial: '8'
+    adultos_fsocial: '15'
+    adultos_f: '30'
+    adultos_m: '16'
+    adultos_t: '46'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:02:33'
+    updated_at: '2011-06-27 09:02:33'
+    deleted_at: null
+  Aldea_24:
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_8
+    direccion: 'Av.San Martin "Asilo la Providencia" al frente de la maternidad cocepción Palacios '
+    nombre: '.C Hermanita de los Pobres'
+    responsable: 'Hna. Hilda Moreno/  Cecilia Villaloboss '
+    telf1: '04241036586'
+    telf2: '02122372612'
+    mail1: asprovi@yahoo.es.com
+    mail2: ''
+    adultos_msalud: '68'
+    adultos_fsalud: '147'
+    adultos_msocial: '68'
+    adultos_fsocial: '148'
+    adultos_f: '295'
+    adultos_m: '136'
+    adultos_t: '431'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:08:54'
+    updated_at: '2011-06-27 09:08:54'
+    deleted_at: null
+  Aldea_25:
+    Estado: Estado_11
+    Municipio: Municipio_117
+    Parroquia: Parroquia_399
+    direccion: 'Mene de Mauroa Edo. Falcon sector campo de maraven via la represa. Urb. La Ceiva '
+    nombre: 'A.C Para la atencion de los Ancianos de Mauroa ASOCANMAU /secretaria del Mapulido '
+    responsable: 'Coordinadora Gloria Ferrer de Mellado'
+    telf1: '04146583123'
+    telf2: '02798083783'
+    mail1: Asocanmau@gmail.com
+    mail2: ''
+    adultos_msalud: '17'
+    adultos_fsalud: '11'
+    adultos_msocial: '16'
+    adultos_fsocial: '10'
+    adultos_f: '21'
+    adultos_m: '33'
+    adultos_t: '54'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:13:14'
+    updated_at: '2011-06-27 09:13:14'
+    deleted_at: null
+  Aldea_26:
+    Estado: Estado_11
+    Municipio: Municipio_122
+    Parroquia: Parroquia_416
+    direccion: 'Municiipo Piritu calle Santa Rita. Detras del ambulatorio piritu'
+    nombre: 'Fundacion para la atención integral de los A.M. FUNDAIAM'
+    responsable: 'Yajaira Perez de Morales '
+    telf1: '04165037365'
+    telf2: '04162227745'
+    mail1: yaya2326@hotmail.com
+    mail2: ''
+    adultos_msalud: '12'
+    adultos_fsalud: '5'
+    adultos_msocial: '13'
+    adultos_fsocial: '5'
+    adultos_f: '10'
+    adultos_m: '25'
+    adultos_t: '35'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:16:35'
+    updated_at: '2011-06-27 09:16:35'
+    deleted_at: null
+  Aldea_27:
+    Estado: Estado_11
+    Municipio: Municipio_116
+    Parroquia: Parroquia_397
+    direccion: 'Calle ecuador con calle los globos S/N.A una cuadra de la alcaldia '
+    nombre: 'Fundación Amigos de los Teques '
+    responsable: 'Jorman Rojas'
+    telf1: '04165031949'
+    telf2: '04161697482'
+    mail1: ae.donvalentinacosta@gamil.com
+    mail2: ''
+    adultos_msalud: '3'
+    adultos_fsalud: '8'
+    adultos_msocial: '4'
+    adultos_fsocial: '8'
+    adultos_f: '16'
+    adultos_m: '7'
+    adultos_t: '23'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:29:25'
+    updated_at: '2011-06-27 09:29:25'
+    deleted_at: null
+  Aldea_28:
+    Estado: Estado_11
+    Municipio: Municipio_126
+    Parroquia: Parroquia_423
+    direccion: 'Calle la plaza casco central tocopero Municipio Tocopero Edo. Falcon '
+    nombre: 'A.C. Atencion integral de la 3era Edad Tocoporense '
+    responsable: 'Greimen Gotoco (Gerontologo)'
+    telf1: '04126558504'
+    telf2: '02687741148'
+    mail1: greciarcrl2811@hotamail.com
+    mail2: ''
+    adultos_msalud: '6'
+    adultos_fsalud: '6'
+    adultos_msocial: '6'
+    adultos_fsocial: '5'
+    adultos_f: '11'
+    adultos_m: '12'
+    adultos_t: '23'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:32:43'
+    updated_at: '2011-06-27 09:32:43'
+    deleted_at: null
+  Aldea_29:
+    Estado: Estado_12
+    Municipio: Municipio_136
+    Parroquia: Parroquia_446
+    direccion: "Calle comercio con calle el cristo frente el hospital Risquez, el sombrero Edo. Guarico ( esta es una aldea a la cual se le brinda aporte de nombre \"Diva de Dubish\".\r\n"
+    nombre: 'A.C Ayuda al Anciano'
+    responsable: 'Maria Mercedes Perez.'
+    telf1: '04145902623'
+    telf2: '02462281296'
+    mail1: mariaperez@gmail.com
+    mail2: ''
+    adultos_msalud: '12'
+    adultos_fsalud: '21'
+    adultos_msocial: '12'
+    adultos_fsocial: '21'
+    adultos_f: '42'
+    adultos_m: '24'
+    adultos_t: '66'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:43:28'
+    updated_at: '2011-06-27 09:43:28'
+    deleted_at: null
+  Aldea_30:
+    Estado: Estado_12
+    Municipio: Municipio_130
+    Parroquia: Parroquia_434
+    direccion: 'Calle el estadio romulo Gallegos I municipio Camaguan (Trina de Sanchez)'
+    nombre: 'Fundacion  para el Desarrollo Camaguan FUDACAMAGUAN'
+    responsable: 'Carmen Rivero'
+    telf1: '04140395284'
+    telf2: '02477410131'
+    mail1: aldeadeencuentro.Trina.Sanchez@gmail.com
+    mail2: ''
+    adultos_msalud: '31'
+    adultos_fsalud: '11'
+    adultos_msocial: '31'
+    adultos_fsocial: '11'
+    adultos_f: '22'
+    adultos_m: '62'
+    adultos_t: '84'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:49:11'
+    updated_at: '2011-06-27 09:49:11'
+    deleted_at: null
+  Aldea_31:
+    Estado: Estado_12
+    Municipio: Municipio_130
+    Parroquia: Parroquia_434
+    direccion: 'Parroquia Uverito. Calle caja de agua entrada principal. '
+    nombre: 'Fundacion para el Bienestar Familiar de Camaguan FUNDABIFACA'
+    responsable: 'Mirella Flores'
+    telf1: '04141467080'
+    telf2: '02477410064'
+    mail1: aldea.d.e.angela.d.brito@gmail.com
+    mail2: ''
+    adultos_msalud: '21'
+    adultos_fsalud: '14'
+    adultos_msocial: '21'
+    adultos_fsocial: '14'
+    adultos_f: '28'
+    adultos_m: '42'
+    adultos_t: '70'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 09:53:36'
+    updated_at: '2011-06-27 10:27:23'
+    deleted_at: null
+  Aldea_32:
+    Estado: Estado_12
+    Municipio: Municipio_134
+    Parroquia: Parroquia_441
+    direccion: 'Calle Paez vía el coroso después de la universidad Simón Rodriguez antes de llegar al  liceo Gran Colombia ( Mis Abuelitos)'
+    nombre: 'Fundación para el desarrollo del Municipio Infante FUNDEMUINFA'
+    responsable: 'Villaroel Avianna/ Adiana de Ortega.'
+    telf1: '04142959576'
+    telf2: '02353415653'
+    mail1: avianna1@hotmail.com
+    mail2: adrianabeatrizleon5@hotmail.com
+    adultos_msalud: '14'
+    adultos_fsalud: '7'
+    adultos_msocial: '13'
+    adultos_fsocial: '7'
+    adultos_f: '14'
+    adultos_m: '27'
+    adultos_t: '41'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 10:37:18'
+    updated_at: '2011-06-27 10:37:18'
+    deleted_at: null
+  Aldea_33:
+    Estado: Estado_12
+    Municipio: Municipio_135
+    Parroquia: Parroquia_443
+    direccion: 'Calle Paez sur- sección la laguna las Mercedes del llano.'
+    nombre: 'A.C Isabel Dalle'
+    responsable: 'Dalila de Arvelaes/ Ana  '
+    telf1: '04165421527'
+    telf2: '02357790325'
+    mail1: ggisabeldale@gmail.com
+    mail2: ''
+    adultos_msalud: '30'
+    adultos_fsalud: '7'
+    adultos_msocial: '30'
+    adultos_fsocial: '6'
+    adultos_f: '13'
+    adultos_m: '60'
+    adultos_t: '73'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 10:40:00'
+    updated_at: '2011-06-27 10:40:00'
+    deleted_at: null
+  Aldea_34:
+    Estado: Estado_12
+    Municipio: Municipio_133
+    Parroquia: Parroquia_439
+    direccion: 'Calle el río sector tejerías San Gerónimo de guayabal (Poeta de los sueños)'
+    nombre: 'Fundación viva la Gente del Guayabal'
+    responsable: 'Fatima de Suares/Noria Lara'
+    telf1: '04145874368'
+    telf2: '04248426216'
+    mail1: noria.alicia.lara@gmail.com
+    mail2: ''
+    adultos_msalud: '10'
+    adultos_fsalud: '8'
+    adultos_msocial: '11'
+    adultos_fsocial: '7'
+    adultos_f: '15'
+    adultos_m: '21'
+    adultos_t: '36'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 10:44:25'
+    updated_at: '2011-06-27 10:44:25'
+    deleted_at: null
+  Aldea_35:
+    Estado: Estado_15
+    Municipio: Municipio_179
+    Parroquia: Parroquia_627
+    direccion: 'Calle el Limo. Quinta mi Muñe.El cafetal.Municipio Baruta.'
+    nombre: 'Fundación Alzheimer de Venezuela '
+    responsable: 'Ursula Penatillo '
+    telf1: '04163031443'
+    telf2: '02129859183'
+    mail1: alzheimer_ven@cantv.net
+    mail2: ''
+    adultos_msalud: '4'
+    adultos_fsalud: '8'
+    adultos_msocial: '5'
+    adultos_fsocial: '9'
+    adultos_f: '17'
+    adultos_m: '9'
+    adultos_t: '26'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 10:57:57'
+    updated_at: '2011-06-27 10:57:57'
+    deleted_at: null
+  Aldea_36:
+    Estado: Estado_15
+    Municipio: Municipio_189
+    Parroquia: Parroquia_651
+    direccion: 'San Antonio de los Altos, sector el sitio al lado del colegio los SALIAS- calle la Zuisa el Pueblo'
+    nombre: 'Juana Ramirez'
+    responsable: 'Maria Hernandez/ lisa'
+    telf1: '04241442977'
+    telf2: '04128220168'
+    mail1: hermary10@hotmail.com
+    mail2: ''
+    adultos_msalud: '18'
+    adultos_fsalud: '32'
+    adultos_msocial: '18'
+    adultos_fsocial: '32'
+    adultos_f: '64'
+    adultos_m: '36'
+    adultos_t: '100'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:04:51'
+    updated_at: '2011-06-27 11:04:51'
+    deleted_at: null
+  Aldea_37:
+    Estado: Estado_15
+    Municipio: Municipio_191
+    Parroquia: Parroquia_657
+    direccion: 'Callejon Niño Jesús,Calle Bolívar, transversal, espejo - diagonal al Banco Industrial'
+    nombre: 'Fundación Marcos Reyes Cueta '
+    responsable: 'Mariana Herrera/ Mario Barrios '
+    telf1: '04241533664'
+    telf2: '04140284612'
+    mail1: fundacionmarcosreyescueta@hotmail.com
+    mail2: ''
+    adultos_msalud: '5'
+    adultos_fsalud: '10'
+    adultos_msocial: '6'
+    adultos_fsocial: '9'
+    adultos_f: '19'
+    adultos_m: '11'
+    adultos_t: '30'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:10:51'
+    updated_at: '2011-06-27 11:10:51'
+    deleted_at: null
+  Aldea_38:
+    Estado: Estado_15
+    Municipio: Municipio_192
+    Parroquia: Parroquia_658
+    direccion: 'Entrada Principal Calle el Tanque Chaguaramal Mun Gual'
+    nombre: 'Fundacion para la asistencia integrqal de las personas de la 3era edad.FUNDAINTEGUAL'
+    responsable: 'Peggi Rojas Presidenta/ Directora Esther Maria Plame '
+    telf1: '04162062365'
+    telf2: '02345112473'
+    mail1: peggiofe@hotmail.com
+    mail2: ''
+    adultos_msalud: '15'
+    adultos_fsalud: '14'
+    adultos_msocial: '14'
+    adultos_fsocial: '15'
+    adultos_f: '29'
+    adultos_m: '29'
+    adultos_t: '58'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:16:56'
+    updated_at: '2011-06-27 11:16:56'
+    deleted_at: null
+  Aldea_39:
+    Estado: Estado_15
+    Municipio: Municipio_188
+    Parroquia: Parroquia_648
+    direccion: 'Sector la mata los Grifales parcela 117 A DOS parcela antes del Ara "Sur América" punto de referencia bodega del sr.Tulio-Ocumare del Tuy '
+    nombre: 'Sociedad Civil La Felicidad de los Pobres'
+    responsable: 'Jaidee Machin/Mirian Alvarado'
+    telf1: '04143309436'
+    telf2: '02124097663'
+    mail1: haydeemachin@hotmail.com
+    mail2: ''
+    adultos_msalud: '7'
+    adultos_fsalud: '6'
+    adultos_msocial: '8'
+    adultos_fsocial: '6'
+    adultos_f: '12'
+    adultos_m: '15'
+    adultos_t: '27'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:22:42'
+    updated_at: '2011-06-27 11:22:42'
+    deleted_at: null
+  Aldea_40:
+    Estado: Estado_16
+    Municipio: Municipio_204
+    Parroquia: Parroquia_688
+    direccion: 'Sector la plaza calle Bolívar al lado de MRW, Casa S/N '
+    nombre: 'Fundación "Doña Luisa Alvarado"'
+    responsable: 'Emigdio José Ramirez'
+    telf1: '04169921277'
+    telf2: '04121938668'
+    mail1: perez.nereida0@gmail.com
+    mail2: ''
+    adultos_msalud: '8'
+    adultos_fsalud: '7'
+    adultos_msocial: '7'
+    adultos_fsocial: '8'
+    adultos_f: '15'
+    adultos_m: '15'
+    adultos_t: '30'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:33:41'
+    updated_at: '2011-06-27 11:33:41'
+    deleted_at: null
+  Aldea_41:
+    Estado: Estado_17
+    Municipio: Municipio_217
+    Parroquia: Parroquia_729
+    direccion: 'Calle el Sol, sector laguna Honda.Juan Griego'
+    nombre: 'Fundación Amigos de la 3era Edad Simplicio Rodriguez INASS '
+    responsable: 'Jossuelys Rodriguez  '
+    telf1: '04268861832'
+    telf2: '02952531127'
+    mail1: jossydriguez@hotmail.com
+    mail2: ''
+    adultos_msalud: '6'
+    adultos_fsalud: '5'
+    adultos_msocial: '7'
+    adultos_fsocial: '6'
+    adultos_f: '11'
+    adultos_m: '13'
+    adultos_t: '24'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:38:10'
+    updated_at: '2011-06-27 11:38:10'
+    deleted_at: null
+  Aldea_42:
+    Estado: Estado_18
+    Municipio: Municipio_229
+    Parroquia: Parroquia_756
+    direccion: 'Calle D 60 entre avenidad D 85 N y D 133-D 85 sector acarigua centro cerca de la reja de Guanare Acarigua Portuguesa '
+    nombre: 'Maria Herrera '
+    responsable: 'Numa RUZA'
+    telf1: '04161579955'
+    telf2: '02559882815'
+    mail1: numaaldea@live.com.ar
+    mail2: rosmeli1209@hotmail.com
+    adultos_msalud: '6'
+    adultos_fsalud: '5'
+    adultos_msocial: '6'
+    adultos_fsocial: '5'
+    adultos_f: '10'
+    adultos_m: '12'
+    adultos_t: '22'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:47:55'
+    updated_at: '2011-06-27 11:48:31'
+    deleted_at: null
+  Aldea_43:
+    Estado: Estado_18
+    Municipio: Municipio_225
+    Parroquia: Parroquia_743
+    direccion: 'Av.Simón Bolívar. Carretera nacional vía acarigua frente el restaurant la Campana.'
+    nombre: 'Nuestra Señora de Coromoto.'
+    responsable: 'José Manuel Valderama / Doris Gutierrez'
+    telf1: '04163579112'
+    telf2: '02572517144'
+    mail1: domigure@hotmail.com
+    mail2: ug.manuelaraujo.inass@gmail.com
+    adultos_msalud: '15'
+    adultos_fsalud: '5'
+    adultos_msocial: '16'
+    adultos_fsocial: '4'
+    adultos_f: '9'
+    adultos_m: '31'
+    adultos_t: '40'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 11:55:35'
+    updated_at: '2011-06-27 11:55:35'
+    deleted_at: null
+  Aldea_44:
+    Estado: Estado_19
+    Municipio: Municipio_242
+    Parroquia: Parroquia_800
+    direccion: 'Calle C.A Cruce con calle el samán a 100 metros del hospital central de YaguaraparO '
+    nombre: 'Fundación Atardecer Feliz (FUNAFE)'
+    responsable: 'Santa Barcenas / Carmen '
+    telf1: '04242841298'
+    telf2: '04241571051'
+    mail1: rubimaríng@hotmail.com
+    mail2: ''
+    adultos_msalud: '16'
+    adultos_fsalud: '10'
+    adultos_msocial: '16'
+    adultos_fsocial: '10'
+    adultos_f: '20'
+    adultos_m: '32'
+    adultos_t: '52'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 13:26:32'
+    updated_at: '2011-06-27 13:26:32'
+    deleted_at: null
+  Aldea_45:
+    Estado: Estado_21
+    Municipio: Municipio_282
+    Parroquia: Parroquia_918
+    direccion: 'Calle ancha, Pueblo Granado, Parroquia Granado,apto de Referencia la Plaza Bolívar.'
+    nombre: 'Casa Hogar Jose de Jesus Morillo'
+    responsable: 'Ysmelda Moreno/ Carolina Marquez'
+    telf1: '04267299010'
+    telf2: '04162782781'
+    mail1: aldeajosedejesusmorillo@gmail.com
+    mail2: ''
+    adultos_msalud: '11'
+    adultos_fsalud: '4'
+    adultos_msocial: '12'
+    adultos_fsocial: '3'
+    adultos_f: '7'
+    adultos_m: '23'
+    adultos_t: '30'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 13:39:36'
+    updated_at: '2011-06-27 13:39:36'
+    deleted_at: null
+  Aldea_46:
+    Estado: Estado_21
+    Municipio: Municipio_296
+    Parroquia: Parroquia_972
+    direccion: 'Calle padilla vía hospital José Vasallo Cortes.Municipio Sucre Sabana de Mendoza Edo.Trujillo.'
+    nombre: 'Fundación para el mejoramiento de la salud en el Municipio Sucre FUNDASALUD'
+    responsable: 'Dra.Danny Arroyo/ Directivo de la fundación prof. Luis Lujano.'
+    telf1: '02716690853'
+    telf2: '04161642068'
+    mail1: yoselinaoso_15@hotmail.com
+    mail2: ''
+    adultos_msalud: '14'
+    adultos_fsalud: '3'
+    adultos_msocial: '13'
+    adultos_fsocial: '2'
+    adultos_f: '5'
+    adultos_m: '27'
+    adultos_t: '32'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 13:45:14'
+    updated_at: '2011-06-27 13:45:14'
+    deleted_at: null
+  Aldea_47:
+    Estado: Estado_21
+    Municipio: Municipio_290
+    Parroquia: Parroquia_951
+    direccion: 'Vía principal de Buena vista frente a la prefectura de la parroquia '
+    nombre: 'fundacion centro Comunitario Monte Carmelo '
+    responsable: 'America de Gonsalez '
+    telf1: '04266784262'
+    telf2: '02714156439'
+    mail1: aldeadeencuentronumahidrobo@hotmail.com
+    mail2: ''
+    adultos_msalud: '3'
+    adultos_fsalud: '14'
+    adultos_msocial: '14'
+    adultos_fsocial: '3'
+    adultos_f: '17'
+    adultos_m: '17'
+    adultos_t: '34'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 13:50:54'
+    updated_at: '2011-06-27 13:50:54'
+    deleted_at: null
+  Aldea_48:
+    Estado: Estado_23
+    Municipio: Municipio_324
+    Parroquia: Parroquia_1062
+    direccion: 'Calle Principal, Casa C, Sector San Martín.'
+    nombre: 'FundacionMaria Auxiliadora '
+    responsable: 'Eluvina Sanchez'
+    telf1: '04165036590'
+    telf2: '02714156439'
+    mail1: eluvinasancheza@hotmail.com
+    mail2: ''
+    adultos_msalud: '7'
+    adultos_fsalud: '7'
+    adultos_msocial: '7'
+    adultos_fsocial: '7'
+    adultos_f: '14'
+    adultos_m: '14'
+    adultos_t: '28'
+    latitud: ''
+    longitud: ''
+    type: Aldea
+    created_at: '2011-06-27 13:59:34'
+    updated_at: '2011-06-27 13:59:34'
     deleted_at: null
 Gerogranja:
   Gerogranja_9:
@@ -204,10 +1116,10 @@ Gerogranja:
     telf2: '04266151257'
     mail1: ug.sanatoniodepadua.miranda@gmail.com
     mail2: ''
-    adultos_fsalud: '0'
     adultos_msalud: '0'
-    adultos_fsocial: '12'
+    adultos_fsalud: '0'
     adultos_msocial: '8'
+    adultos_fsocial: '12'
     adultos_f: '12'
     adultos_m: '8'
     adultos_t: '20'
@@ -228,10 +1140,10 @@ Gerogranja:
     telf2: '02128994487'
     mail1: ugarmandoreveron@gmail.com
     mail2: ''
-    adultos_fsalud: '0'
     adultos_msalud: '0'
-    adultos_fsocial: '2'
+    adultos_fsalud: '0'
     adultos_msocial: '12'
+    adultos_fsocial: '2'
     adultos_f: '2'
     adultos_m: '12'
     adultos_t: '14'
@@ -240,6 +1152,655 @@ Gerogranja:
     type: Gerogranja
     created_at: '2011-06-23 11:37:48'
     updated_at: '2011-06-23 11:37:48'
+    deleted_at: null
+  Gerogranja_49:
+    Estado: Estado_8
+    Municipio: Municipio_87
+    Parroquia: Parroquia_295
+    direccion: 'Dentro del C.S.S "Doña Maria Pereira de Daza"'
+    nombre: 'El Manzano'
+    responsable: 'Guandys Marchan'
+    telf1: '04245460363'
+    telf2: '02522324907'
+    mail1: guandymarchan@hotmail.com
+    mail2: donamaria_pereiradaza@gmail.com
+    adultos_msalud: '0'
+    adultos_fsalud: '5'
+    adultos_msocial: '0'
+    adultos_fsocial: '5'
+    adultos_f: '10'
+    adultos_m: '0'
+    adultos_t: '10'
+    latitud: ''
+    longitud: ''
+    type: Gerogranja
+    created_at: '2011-06-27 14:26:48'
+    updated_at: '2011-06-27 14:26:48'
+    deleted_at: null
+  Gerogranja_50:
+    Estado: Estado_22
+    Municipio: Municipio_310
+    Parroquia: Parroquia_1009
+    direccion: 'Centro de C.S.S Tomas Márquez Gómez '
+    nombre: 'Cocorote '
+    responsable: 'Eduardo Sira'
+    telf1: '04167525133'
+    telf2: '02542323354'
+    mail1: mtomasmgyaracuyinass@gmail.com
+    mail2: eduardosira28@hotmail.com
+    adultos_msalud: null
+    adultos_fsalud: '5'
+    adultos_msocial: '1'
+    adultos_fsocial: '4'
+    adultos_f: '9'
+    adultos_m: '1'
+    adultos_t: '10'
+    latitud: ''
+    longitud: ''
+    type: Gerogranja
+    created_at: '2011-06-27 14:30:54'
+    updated_at: '2011-06-27 14:31:26'
+    deleted_at: null
+  Gerogranja_51:
+    Estado: Estado_21
+    Municipio: Municipio_281
+    Parroquia: Parroquia_906
+    direccion: 'Calle San Jóse '
+    nombre: 'Salto Adelante '
+    responsable: 'Yannnelys Castellanos '
+    telf1: '04146551866'
+    telf2: '04166925873'
+    mail1: ycastellanos_4@hotmail.com
+    mail2: ''
+    adultos_msalud: '1'
+    adultos_fsalud: '4'
+    adultos_msocial: '2'
+    adultos_fsocial: '3'
+    adultos_f: '7'
+    adultos_m: '3'
+    adultos_t: '10'
+    latitud: ''
+    longitud: ''
+    type: Gerogranja
+    created_at: '2011-06-27 15:06:48'
+    updated_at: '2011-06-27 15:06:48'
+    deleted_at: null
+  Gerogranja_52:
+    Estado: Estado_21
+    Municipio: Municipio_296
+    Parroquia: Parroquia_972
+    direccion: 'Sabana de Mendoza '
+    nombre: 'Antonio Jóse de Sucre '
+    responsable: 'Yanneirys Castellanos '
+    telf1: '04146551866'
+    telf2: '04266024242'
+    mail1: ycastellanos_4@hotmail.com
+    mail2: ''
+    adultos_msalud: '3'
+    adultos_fsalud: '1'
+    adultos_msocial: '2'
+    adultos_fsocial: null
+    adultos_f: '1'
+    adultos_m: '5'
+    adultos_t: '6'
+    latitud: ''
+    longitud: ''
+    type: Gerogranja
+    created_at: '2011-06-27 15:09:58'
+    updated_at: '2011-06-27 15:09:58'
+    deleted_at: null
+Residencial:
+  Residencial_53:
+    Estado: Estado_3
+    Municipio: Municipio_27
+    Parroquia: Parroquia_97
+    direccion: 'Final AV.Los yopales el Tigre '
+    nombre: '"Maria Auxiliadora"'
+    responsable: 'Dorilsa Gazcon'
+    telf1: '04168833802'
+    telf2: ''
+    mail1: dorilzagazcon@hotmail.com
+    mail2: ''
+    adultos_msalud: '16'
+    adultos_fsalud: '16'
+    adultos_msocial: '16'
+    adultos_fsocial: '16'
+    adultos_f: '32'
+    adultos_m: '32'
+    adultos_t: '64'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:02:18'
+    updated_at: '2011-06-30 14:02:18'
+    deleted_at: null
+  Residencial_54:
+    Estado: Estado_3
+    Municipio: Municipio_26
+    Parroquia: Parroquia_92
+    direccion: 'Av.Paseo Cumanagotos, sector Brisas del mar, calle el asilo Barcelona.'
+    nombre: 'Dr.Jose Gregorio Her4nandez G'
+    responsable: 'Indira Medinas'
+    telf1: '04263854160'
+    telf2: ''
+    mail1: indirmedi@cantv.net
+    mail2: ''
+    adultos_msalud: '14'
+    adultos_fsalud: '14'
+    adultos_msocial: '14'
+    adultos_fsocial: '14'
+    adultos_f: '28'
+    adultos_m: '28'
+    adultos_t: '56'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:06:54'
+    updated_at: '2011-06-30 14:06:54'
+    deleted_at: null
+  Residencial_55:
+    Estado: Estado_6
+    Municipio: Municipio_58
+    Parroquia: Parroquia_198
+    direccion: 'Fianl calle camejo, detras de la ciudad deportiva '
+    nombre: 'Jose Ingnacio del Palmar'
+    responsable: 'Maritza Montilla'
+    telf1: '04166205633'
+    telf2: ''
+    mail1: ug.jòseingnaciodelpumar@gmail.com
+    mail2: ''
+    adultos_msalud: '35'
+    adultos_fsalud: '25'
+    adultos_msocial: '25'
+    adultos_fsocial: '35'
+    adultos_f: '60'
+    adultos_m: '60'
+    adultos_t: '120'
+    latitud: '8.600263560561627'
+    longitud: '-70.23216247558594'
+    type: Residencial
+    created_at: '2011-06-30 14:11:45'
+    updated_at: '2011-07-11 13:38:26'
+    deleted_at: null
+  Residencial_56:
+    Estado: Estado_7
+    Municipio: Municipio_71
+    Parroquia: Parroquia_254
+    direccion: 'Km.8 Marguanta. Municipio Heres'
+    nombre: 'Dr. Carlos Fragachan.'
+    responsable: 'Alfredo Romero.'
+    telf1: '04163893859'
+    telf2: ''
+    mail1: alfredoromero_36@hotmail.com
+    mail2: ''
+    adultos_msalud: '27'
+    adultos_fsalud: '15'
+    adultos_msocial: '20'
+    adultos_fsocial: '15'
+    adultos_f: '30'
+    adultos_m: '47'
+    adultos_t: '77'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:17:05'
+    updated_at: '2011-06-30 14:17:05'
+    deleted_at: null
+  Residencial_57:
+    Estado: Estado_8
+    Municipio: Municipio_87
+    Parroquia: Parroquia_295
+    direccion: 'Colonia psiquiatrica de Barbùlo pabellon Nº 16 y 18 NAGUANAGUA '
+    nombre: 'Dr.Patrocinio Peñuela'
+    responsable: 'Laura Petit   '
+    telf1: '04124889022'
+    telf2: ''
+    mail1: drpatrocinio@gmail.com
+    mail2: ''
+    adultos_msalud: '25'
+    adultos_fsalud: '25'
+    adultos_msocial: '25'
+    adultos_fsocial: '27'
+    adultos_f: '52'
+    adultos_m: '50'
+    adultos_t: '102'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:23:38'
+    updated_at: '2011-06-30 14:23:38'
+    deleted_at: null
+  Residencial_58:
+    Estado: Estado_9
+    Municipio: Municipio_99
+    Parroquia: Parroquia_326
+    direccion: 'La colonia,vìa balnerio boca de Toma San Carlos Cojedes.'
+    nombre: 'Agustin Capobianco Sanchez '
+    responsable: 'Lilisbeth Balderrama'
+    telf1: '04169495272'
+    telf2: ''
+    mail1: ug.Agustìncapobiancosanchez@gmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '15'
+    adultos_msocial: '15'
+    adultos_fsocial: '15'
+    adultos_f: '30'
+    adultos_m: '35'
+    adultos_t: '65'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:29:28'
+    updated_at: '2011-06-30 14:29:28'
+    deleted_at: null
+  Residencial_59:
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_4
+    direccion: 'Sector UD.-1 Caricuao, detras de l a escuela superior de la guardia Nacional Caracas. '
+    nombre: 'Dr. San Joaquin Quintero Quintero.'
+    responsable: 'Maria Delgado'
+    telf1: '04142338865'
+    telf2: ''
+    mail1: ug.drjoaquinquinteroquintero@gmail.com
+    mail2: ''
+    adultos_msalud: '89'
+    adultos_fsalud: '80'
+    adultos_msocial: '80'
+    adultos_fsocial: '80'
+    adultos_f: '160'
+    adultos_m: '169'
+    adultos_t: '329'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:35:10'
+    updated_at: '2011-06-30 14:35:10'
+    deleted_at: null
+  Residencial_60:
+    Estado: Estado_11
+    Municipio: Municipio_118
+    Parroquia: Parroquia_403
+    direccion: 'Av.Independiente Santa Ana de Coro.'
+    nombre: 'Dr.Jòse Dolores Beaujòn'
+    responsable: 'Sandi Reyes '
+    telf1: '04142214307'
+    telf2: ''
+    mail1: ug.jòsedoloresbeaujon@gmail.com
+    mail2: ''
+    adultos_msalud: '27'
+    adultos_fsalud: '27'
+    adultos_msocial: '27'
+    adultos_fsocial: '27'
+    adultos_f: '54'
+    adultos_m: '54'
+    adultos_t: '108'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:38:02'
+    updated_at: '2011-06-30 14:38:02'
+    deleted_at: null
+  Residencial_61:
+    Estado: Estado_12
+    Municipio: Municipio_135
+    Parroquia: Parroquia_444
+    direccion: 'Cabruta Municipio Las Mercedes'
+    nombre: 'Erlinda Mercedes de Guaran '
+    responsable: 'Francisco Javier Agrismon '
+    telf1: '04161896691'
+    telf2: ''
+    mail1: javieragrismon@gmail.com
+    mail2: ''
+    adultos_msalud: '5'
+    adultos_fsalud: '5'
+    adultos_msocial: '7'
+    adultos_fsocial: '5'
+    adultos_f: '10'
+    adultos_m: '12'
+    adultos_t: '22'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:41:20'
+    updated_at: '2011-06-30 14:41:20'
+    deleted_at: null
+  Residencial_62:
+    Estado: Estado_12
+    Municipio: Municipio_138
+    Parroquia: Parroquia_452
+    direccion: 'URB. El Paural Altagracia Orituco.'
+    nombre: 'Madre Candelaria '
+    responsable: 'Alfreda Rodriguez'
+    telf1: '04262445461'
+    telf2: ''
+    mail1: madrecandelaria.guarico@gmail.com
+    mail2: ''
+    adultos_msalud: '15'
+    adultos_fsalud: '15'
+    adultos_msocial: '4'
+    adultos_fsocial: '4'
+    adultos_f: '19'
+    adultos_m: '19'
+    adultos_t: '38'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:44:38'
+    updated_at: '2011-06-30 14:44:38'
+    deleted_at: null
+  Residencial_63:
+    Estado: Estado_12
+    Municipio: Municipio_137
+    Parroquia: Parroquia_449
+    direccion: 'Carretera Nc. Vìa San fernando de Apure entre bomba Àmerica y puente aldao, calabozo.'
+    nombre: 'Luis Maria Ascanio '
+    responsable: 'Maria Garcia '
+    telf1: '04265412123'
+    telf2: ''
+    mail1: luis.mariaascanio.garcia@gmail.com
+    mail2: ''
+    adultos_msalud: '25'
+    adultos_fsalud: '7'
+    adultos_msocial: '7'
+    adultos_fsocial: '25'
+    adultos_f: '32'
+    adultos_m: '32'
+    adultos_t: '64'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:49:20'
+    updated_at: '2011-06-30 14:49:20'
+    deleted_at: null
+  Residencial_64:
+    Estado: Estado_13
+    Municipio: Municipio_147
+    Parroquia: Parroquia_478
+    direccion: 'Sector el manzano km.7 vìa rìo claro detras de la planta Inoss.'
+    nombre: 'Doña Maria Pereira de Daza '
+    responsable: 'Luis Crespo'
+    telf1: '04145057030'
+    telf2: ''
+    mail1: donamaria.pereiradaza@gmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '14'
+    adultos_f: '34'
+    adultos_m: '40'
+    adultos_t: '74'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:52:31'
+    updated_at: '2011-06-30 14:52:31'
+    deleted_at: null
+  Residencial_65:
+    Estado: Estado_14
+    Municipio: Municipio_159
+    Parroquia: Parroquia_553
+    direccion: 'Ramal Panamericano vìa el manzano bajo,Ejido '
+    nombre: 'Ricardo Sergent'
+    responsable: 'Ana Josefina Lizano'
+    telf1: '04265731217'
+    telf2: ''
+    mail1: ug.ricardosergentmerida@gmail.com
+    mail2: ''
+    adultos_msalud: '25'
+    adultos_fsalud: '25'
+    adultos_msocial: '25'
+    adultos_fsocial: '28'
+    adultos_f: '53'
+    adultos_m: '50'
+    adultos_t: '103'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 14:57:09'
+    updated_at: '2011-06-30 14:57:09'
+    deleted_at: null
+  Residencial_66:
+    Estado: Estado_16
+    Municipio: Municipio_205
+    Parroquia: Parroquia_695
+    direccion: 'Calle 9 antigua el tubo, con callejon Rodriguez, Maturìn '
+    nombre: 'Dr.Marcos Serres Padilla'
+    responsable: 'Felicida Hernandez '
+    telf1: '04161946590'
+    telf2: ''
+    mail1: ug.marcoscerrespadilla@gmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '16'
+    adultos_f: '36'
+    adultos_m: '40'
+    adultos_t: '76'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:03:52'
+    updated_at: '2011-06-30 15:03:52'
+    deleted_at: null
+  Residencial_67:
+    Estado: Estado_17
+    Municipio: Municipio_217
+    Parroquia: Parroquia_730
+    direccion: 'Urb.Laguna Honda calle principal Juan Griego'
+    nombre: 'Monseñor Dr Rafael Arìas Blanco'
+    responsable: 'Susec Rada '
+    telf1: '04261892698'
+    telf2: ''
+    mail1: sucrada_01@hotmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '25'
+    adultos_msocial: '20'
+    adultos_fsocial: '21'
+    adultos_f: '46'
+    adultos_m: '40'
+    adultos_t: '86'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:07:47'
+    updated_at: '2011-06-30 15:43:11'
+    deleted_at: null
+  Residencial_68:
+    Estado: Estado_18
+    Municipio: Municipio_225
+    Parroquia: Parroquia_743
+    direccion: 'Av. Simon Bolivar, los cortijos al lado del hotel interconental Guanare.'
+    nombre: 'Dr.Manuel Araujo'
+    responsable: 'Daniela Rojo '
+    telf1: '04147310550'
+    telf2: ''
+    mail1: daielaro12@hotmail.com
+    mail2: ''
+    adultos_msalud: '18'
+    adultos_fsalud: '15'
+    adultos_msocial: '15'
+    adultos_fsocial: '15'
+    adultos_f: '30'
+    adultos_m: '33'
+    adultos_t: '63'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:15:20'
+    updated_at: '2011-06-30 15:15:20'
+    deleted_at: null
+  Residencial_69:
+    Estado: Estado_19
+    Municipio: Municipio_240
+    Parroquia: Parroquia_797
+    direccion: 'Barrio 22 de Agosto sector San Martin, al lado de casa hogar "Doña Menca de Leoni"Carupano.'
+    nombre: 'Jòse Manuel Suniaga '
+    responsable: 'Angelis Sanchez'
+    telf1: '04263869259'
+    telf2: ''
+    mail1: ug.tuangel1103@yahoo.es
+    mail2: ''
+    adultos_msalud: '10'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '15'
+    adultos_f: '35'
+    adultos_m: '30'
+    adultos_t: '65'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:19:32'
+    updated_at: '2011-06-30 15:19:32'
+    deleted_at: null
+  Residencial_70:
+    Estado: Estado_20
+    Municipio: Municipio_270
+    Parroquia: Parroquia_881
+    direccion: 'Final calle 8, c/ carretera 6 y 7, parte alta de aguas calientes ureñas '
+    nombre: 'Pedro Maria Ureña.'
+    responsable: 'Xiomara Yaneth Valecillos '
+    telf1: '04265725562'
+    telf2: ''
+    mail1: ug.pedromariaureña.inass@gmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '24'
+    adultos_f: '44'
+    adultos_m: '40'
+    adultos_t: '84'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:22:10'
+    updated_at: '2011-06-30 15:22:10'
+    deleted_at: null
+  Residencial_71:
+    Estado: Estado_20
+    Municipio: Municipio_253
+    Parroquia: Parroquia_838
+    direccion: 'Barrio Urdaneta carrera 5 entre calle 2 y 3 , casa 2-66 quinta Santa Lucia '
+    nombre: 'Colon '
+    responsable: 'Maria Mora '
+    telf1: '04162763020'
+    telf2: ''
+    mail1: mariaors_15@yahoo.com
+    mail2: ''
+    adultos_msalud: '3'
+    adultos_fsalud: '3'
+    adultos_msocial: '3'
+    adultos_fsocial: '2'
+    adultos_f: '5'
+    adultos_m: '6'
+    adultos_t: '11'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:28:15'
+    updated_at: '2011-06-30 15:28:15'
+    deleted_at: null
+  Residencial_72:
+    Estado: Estado_20
+    Municipio: Municipio_273
+    Parroquia: Parroquia_887
+    direccion: 'Barrio obrero pasaje primero casa 22-55'
+    nombre: 'Mis Abuelitos'
+    responsable: 'Hidelmar Pernia '
+    telf1: '04161701189'
+    telf2: ''
+    mail1: hidelmarpernia2003@hotmail.com
+    mail2: ''
+    adultos_msalud: '5'
+    adultos_fsalud: '10'
+    adultos_msocial: '5'
+    adultos_fsocial: '5'
+    adultos_f: '15'
+    adultos_m: '10'
+    adultos_t: '25'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:31:01'
+    updated_at: '2011-06-30 15:31:01'
+    deleted_at: null
+  Residencial_73:
+    Estado: Estado_21
+    Municipio: Municipio_281
+    Parroquia: Parroquia_907
+    direccion: 'Calle San Jòse primera. la sabana parroquia el carme, Bocono.'
+    nombre: 'Hogar San Jòse '
+    responsable: 'Doris Beatriz Abreu Briceño'
+    telf1: '04264746235'
+    telf2: ''
+    mail1: ug.sanjòse.inass@gmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '17'
+    adultos_f: '37'
+    adultos_m: '40'
+    adultos_t: '77'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:33:59'
+    updated_at: '2011-06-30 15:33:59'
+    deleted_at: null
+  Residencial_74:
+    Estado: Estado_24
+    Municipio: Municipio_335
+    Parroquia: Parroquia_1128
+    direccion: 'Av. El paseo con calle linares, paseo macuto '
+    nombre: 'Macuto '
+    responsable: 'Fanny Codi'
+    telf1: '04261893486'
+    telf2: ''
+    mail1: inass.vargas@gmail.com
+    mail2: ''
+    adultos_msalud: '0'
+    adultos_fsalud: '0'
+    adultos_msocial: '0'
+    adultos_fsocial: '0'
+    adultos_f: '0'
+    adultos_m: '0'
+    adultos_t: '0'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:36:27'
+    updated_at: '2011-06-30 15:36:27'
+    deleted_at: null
+  Residencial_75:
+    Estado: Estado_23
+    Municipio: Municipio_326
+    Parroquia: Parroquia_1076
+    direccion: 'Av. El milagros norte sector lago marbeach al lado de la primera 1º DIV. de la infanteria de Maracaibo  '
+    nombre: 'Joaquin Esteva Parra '
+    responsable: 'Gladis Perez.'
+    telf1: '04261655463'
+    telf2: ''
+    mail1: Drjoaquinep.zulia.inass@gmail.com
+    mail2: ''
+    adultos_msalud: '20'
+    adultos_fsalud: '20'
+    adultos_msocial: '20'
+    adultos_fsocial: '19'
+    adultos_f: '39'
+    adultos_m: '40'
+    adultos_t: '79'
+    latitud: ''
+    longitud: ''
+    type: Residencial
+    created_at: '2011-06-30 15:41:03'
+    updated_at: '2011-06-30 15:41:03'
     deleted_at: null
 Estado:
   Estado_1:
@@ -9188,10 +10749,10 @@ sfGuardUser:
     password: 123456
     is_active: true
     is_super_admin: false
-    last_login: '2011-06-23 10:58:31'
+    last_login: '2011-07-14 10:41:31'
     cedula: '1234567'
     created_at: '2011-04-28 10:44:53'
-    updated_at: '2011-06-23 10:58:31'
+    updated_at: '2011-07-14 10:41:31'
   sfGuardUser_2:
     first_name: Alexis
     last_name: Limongi
@@ -9202,10 +10763,10 @@ sfGuardUser:
     password: 123456
     is_active: true
     is_super_admin: false
-    last_login: '2011-06-22 12:05:31'
+    last_login: '2011-07-11 14:05:06'
     cedula: '12501993'
     created_at: '2011-04-28 10:47:00'
-    updated_at: '2011-06-22 12:05:31'
+    updated_at: '2011-07-11 14:05:06'
   sfGuardUser_3:
     first_name: Lennyn
     last_name: Limongi
@@ -9220,6 +10781,62 @@ sfGuardUser:
     cedula: '23682872'
     created_at: '2011-04-28 10:48:59'
     updated_at: '2011-05-24 18:01:08'
+  sfGuardUser_4:
+    first_name: Gerulin
+    last_name: Zambrano
+    email_address: gzambrano@inass.gob.ve
+    username: gzambrano
+    algorithm: sha1
+    salt: e6cbe37771c6c021770619c4ac9abbb6
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-30 13:52:51'
+    cedula: '19380477'
+    created_at: '2011-06-23 14:18:03'
+    updated_at: '2011-06-30 13:52:51'
+  sfGuardUser_5:
+    first_name: Nohora
+    last_name: Velandra
+    email_address: nvelandra@inass.gob.ve
+    username: nvelandra
+    algorithm: sha1
+    salt: cfdf314b25b7ee1c0e5a6304f91c42d2
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-23 14:20:50'
+    cedula: '22982441'
+    created_at: '2011-06-23 14:20:27'
+    updated_at: '2011-06-23 14:20:50'
+  sfGuardUser_6:
+    first_name: Iris
+    last_name: Bernal
+    email_address: iris.bernal@inass.gob.ve
+    username: ibernal
+    algorithm: sha1
+    salt: 05f8b69f657d8349880f35f37bfa74e7
+    password: 6849950
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-30 10:27:36'
+    cedula: '6849950'
+    created_at: '2011-06-30 10:27:18'
+    updated_at: '2011-06-30 10:27:36'
+  sfGuardUser_7:
+    first_name: Jesus
+    last_name: Ramirez
+    email_address: jesus.ramirez@inass.gob.ve
+    username: jramirez
+    algorithm: sha1
+    salt: 17cf9d0d3a13541f4d84d2981fe13f23
+    password: 10555473
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-06-30 10:42:38'
+    cedula: '10555473'
+    created_at: '2011-06-30 10:38:51'
+    updated_at: '2011-06-30 10:42:38'
 sfGuardPermission:
   sfGuardPermission_1:
     name: admin
@@ -9267,6 +10884,26 @@ sfGuardUserPermission:
     Permission: sfGuardPermission_6
     created_at: '2011-04-28 10:48:59'
     updated_at: '2011-04-28 10:48:59'
+  sfGuardUserPermission_4_2:
+    User: sfGuardUser_4
+    Permission: sfGuardPermission_2
+    created_at: '2011-06-23 14:18:03'
+    updated_at: '2011-06-23 14:18:03'
+  sfGuardUserPermission_5_2:
+    User: sfGuardUser_5
+    Permission: sfGuardPermission_2
+    created_at: '2011-06-23 14:20:27'
+    updated_at: '2011-06-23 14:20:27'
+  sfGuardUserPermission_6_4:
+    User: sfGuardUser_6
+    Permission: sfGuardPermission_4
+    created_at: '2011-06-30 10:27:18'
+    updated_at: '2011-06-30 10:27:18'
+  sfGuardUserPermission_7_3:
+    User: sfGuardUser_7
+    Permission: sfGuardPermission_3
+    created_at: '2011-06-30 10:38:51'
+    updated_at: '2011-06-30 10:38:51'
 Beneficiario:
   Beneficiario_1:
     ci: '12501993'
@@ -9315,14 +10952,50 @@ UserEstado:
   UserEstado_2_1:
     sfGuardUser: sfGuardUser_2
     Estado: Estado_1
+  UserEstado_4_1:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_1
+  UserEstado_5_1:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_1
+  UserEstado_6_1:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_1
+  UserEstado_7_1:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_1
   UserEstado_1_2:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_2
   UserEstado_3_2:
     sfGuardUser: sfGuardUser_3
     Estado: Estado_2
+  UserEstado_4_2:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_2
+  UserEstado_5_2:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_2
+  UserEstado_6_2:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_2
+  UserEstado_7_2:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_2
   UserEstado_1_3:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_3
+  UserEstado_4_3:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_3
+  UserEstado_5_3:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_3
+  UserEstado_6_3:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_3
+  UserEstado_7_3:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_3
   UserEstado_1_4:
     sfGuardUser: sfGuardUser_1
@@ -9330,63 +11003,315 @@ UserEstado:
   UserEstado_3_4:
     sfGuardUser: sfGuardUser_3
     Estado: Estado_4
+  UserEstado_4_4:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_4
+  UserEstado_5_4:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_4
+  UserEstado_6_4:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_4
+  UserEstado_7_4:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_4
   UserEstado_1_5:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_5
+  UserEstado_4_5:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_5
+  UserEstado_5_5:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_5
+  UserEstado_6_5:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_5
+  UserEstado_7_5:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_5
   UserEstado_1_6:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_6
+  UserEstado_4_6:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_6
+  UserEstado_5_6:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_6
+  UserEstado_6_6:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_6
+  UserEstado_7_6:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_6
   UserEstado_1_7:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_7
+  UserEstado_4_7:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_7
+  UserEstado_5_7:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_7
+  UserEstado_6_7:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_7
+  UserEstado_7_7:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_7
   UserEstado_1_8:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_8
+  UserEstado_4_8:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_8
+  UserEstado_5_8:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_8
+  UserEstado_6_8:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_8
+  UserEstado_7_8:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_8
   UserEstado_1_9:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_9
+  UserEstado_4_9:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_9
+  UserEstado_5_9:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_9
+  UserEstado_6_9:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_9
+  UserEstado_7_9:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_9
   UserEstado_1_10:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_10
+  UserEstado_4_10:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_10
+  UserEstado_5_10:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_10
+  UserEstado_6_10:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_10
+  UserEstado_7_10:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_10
   UserEstado_1_11:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_11
+  UserEstado_4_11:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_11
+  UserEstado_5_11:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_11
+  UserEstado_6_11:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_11
+  UserEstado_7_11:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_11
   UserEstado_1_12:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_12
+  UserEstado_4_12:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_12
+  UserEstado_5_12:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_12
+  UserEstado_6_12:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_12
+  UserEstado_7_12:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_12
   UserEstado_1_13:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_13
+  UserEstado_4_13:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_13
+  UserEstado_5_13:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_13
+  UserEstado_6_13:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_13
+  UserEstado_7_13:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_13
   UserEstado_1_14:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_14
+  UserEstado_4_14:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_14
+  UserEstado_5_14:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_14
+  UserEstado_6_14:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_14
+  UserEstado_7_14:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_14
   UserEstado_1_15:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_15
+  UserEstado_4_15:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_15
+  UserEstado_5_15:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_15
+  UserEstado_6_15:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_15
+  UserEstado_7_15:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_15
   UserEstado_1_16:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_16
+  UserEstado_4_16:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_16
+  UserEstado_5_16:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_16
+  UserEstado_6_16:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_16
+  UserEstado_7_16:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_16
   UserEstado_1_17:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_17
+  UserEstado_4_17:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_17
+  UserEstado_5_17:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_17
+  UserEstado_6_17:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_17
+  UserEstado_7_17:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_17
   UserEstado_1_18:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_18
+  UserEstado_4_18:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_18
+  UserEstado_5_18:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_18
+  UserEstado_6_18:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_18
+  UserEstado_7_18:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_18
   UserEstado_1_19:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_19
+  UserEstado_4_19:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_19
+  UserEstado_5_19:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_19
+  UserEstado_6_19:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_19
+  UserEstado_7_19:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_19
   UserEstado_1_20:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_20
+  UserEstado_4_20:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_20
+  UserEstado_5_20:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_20
+  UserEstado_6_20:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_20
+  UserEstado_7_20:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_20
   UserEstado_1_21:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_21
+  UserEstado_4_21:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_21
+  UserEstado_5_21:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_21
+  UserEstado_6_21:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_21
+  UserEstado_7_21:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_21
   UserEstado_1_22:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_22
+  UserEstado_4_22:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_22
+  UserEstado_5_22:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_22
+  UserEstado_6_22:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_22
+  UserEstado_7_22:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_22
   UserEstado_1_23:
     sfGuardUser: sfGuardUser_1
     Estado: Estado_23
+  UserEstado_4_23:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_23
+  UserEstado_5_23:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_23
+  UserEstado_6_23:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_23
+  UserEstado_7_23:
+    sfGuardUser: sfGuardUser_7
+    Estado: Estado_23
   UserEstado_1_24:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_24
+  UserEstado_4_24:
+    sfGuardUser: sfGuardUser_4
+    Estado: Estado_24
+  UserEstado_5_24:
+    sfGuardUser: sfGuardUser_5
+    Estado: Estado_24
+  UserEstado_6_24:
+    sfGuardUser: sfGuardUser_6
+    Estado: Estado_24
+  UserEstado_7_24:
+    sfGuardUser: sfGuardUser_7
     Estado: Estado_24

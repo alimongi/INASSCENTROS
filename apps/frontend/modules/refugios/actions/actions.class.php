@@ -26,8 +26,7 @@ class refugiosActions extends sfActions
   public function executeRefIndex(sfWebRequest $request)
   {
      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->refugios = Doctrine::getTable('Refugio')
-    ->getListado($ids);
+      $this->refugios = Doctrine::getTable('Refugio')->getListPager($ids);
   }
 
 

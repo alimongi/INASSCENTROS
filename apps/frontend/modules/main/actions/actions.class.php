@@ -18,8 +18,7 @@ class mainActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
       $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->centros = Doctrine::getTable('Centro')
-      ->getListado($ids);
+      $this->centros = Doctrine::getTable('Centro')->getListado($ids);
   }
 
     public function executeJsonMunicipios(sfWebRequest $request)

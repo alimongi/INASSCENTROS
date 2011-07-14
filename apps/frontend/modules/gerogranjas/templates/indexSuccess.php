@@ -9,10 +9,6 @@
       <th> Estado </th>
       <th> Nombre </th>
       <th> Responsable </th>
-      <th> Adultos Atendidos Salud </th>
-      <th> Adultas Atendidas Salud </th>
-      <th> Adultos Atendidos Social </th>
-      <th> Adultas Atendidas Social </th>
       <th> Adultos Atendidos </th>
       <th> Adultas Atendidas </th>
       <th> Total Adultos </th>
@@ -32,10 +28,6 @@
       <td><?php echo $gerogranja->getEstado() ?></td>
       <td><?php echo $gerogranja->getNombre() ?></td>
       <td><?php echo $gerogranja->getResponsable() ?></td>
-      <td><?php echo $gerogranja->getAdultosMsalud() ?></td>
-      <td><?php echo $gerogranja->getAdultosFsalud() ?></td>
-      <td><?php echo $gerogranja->getAdultosMsocial() ?></td>
-      <td><?php echo $gerogranja->getAdultosFsocial() ?></td>
       <td><?php echo $gerogranja->getAdultosM() ?></td>
       <td><?php echo $gerogranja->getAdultosF() ?></td>
       <td><?php echo $gerogranja->getAdultosT() ?></td>

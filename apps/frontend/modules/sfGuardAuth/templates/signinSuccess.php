@@ -11,6 +11,6 @@
     <label for="_csrf_token">Recordarme</label>
     <?php echo $form['remember']->render() ?>
     <?php echo $form['_csrf_token']->render() ?><br>
-  <input type="submit" value="<?php echo __('Login') ?>" class="boton" />
+  <input type="submit" value="<?php echo __('Ingreso') ?>" class="boton" />
 
 </form>

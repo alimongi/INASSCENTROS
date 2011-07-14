@@ -20,6 +20,12 @@
  * @property integer $adultos_fsalud
  * @property integer $adultos_msocial
  * @property integer $adultos_fsocial
+ * @property integer $adultos_meconomico
+ * @property integer $adultos_feconomico
+ * @property integer $adultos_mtecnica
+ * @property integer $adultos_ftecnica
+ * @property integer $adultos_mproductiva
+ * @property integer $adultos_fproductiva
  * @property integer $adultos_f
  * @property integer $adultos_m
  * @property integer $adultos_t
@@ -31,56 +37,68 @@
  * @property Parroquia $Parroquia
  * @property Doctrine_Collection $Atencion
  * 
- * @method integer             getId()              Returns the current record's "id" value
- * @method integer             getEstadoId()        Returns the current record's "estado_id" value
- * @method integer             getMunicipioId()     Returns the current record's "municipio_id" value
- * @method integer             getParroquiaId()     Returns the current record's "parroquia_id" value
- * @method string              getDireccion()       Returns the current record's "direccion" value
- * @method string              getNombre()          Returns the current record's "nombre" value
- * @method string              getResponsable()     Returns the current record's "responsable" value
- * @method string              getTelf1()           Returns the current record's "telf1" value
- * @method string              getTelf2()           Returns the current record's "telf2" value
- * @method string              getMail1()           Returns the current record's "mail1" value
- * @method string              getMail2()           Returns the current record's "mail2" value
- * @method integer             getAdultosMsalud()   Returns the current record's "adultos_msalud" value
- * @method integer             getAdultosFsalud()   Returns the current record's "adultos_fsalud" value
- * @method integer             getAdultosMsocial()  Returns the current record's "adultos_msocial" value
- * @method integer             getAdultosFsocial()  Returns the current record's "adultos_fsocial" value
- * @method integer             getAdultosF()        Returns the current record's "adultos_f" value
- * @method integer             getAdultosM()        Returns the current record's "adultos_m" value
- * @method integer             getAdultosT()        Returns the current record's "adultos_t" value
- * @method long                getLatitud()         Returns the current record's "latitud" value
- * @method long                getLongitud()        Returns the current record's "longitud" value
- * @method string              getType()            Returns the current record's "type" value
- * @method Estado              getEstado()          Returns the current record's "Estado" value
- * @method Municipio           getMunicipio()       Returns the current record's "Municipio" value
- * @method Parroquia           getParroquia()       Returns the current record's "Parroquia" value
- * @method Doctrine_Collection getAtencion()        Returns the current record's "Atencion" collection
- * @method Centro              setId()              Sets the current record's "id" value
- * @method Centro              setEstadoId()        Sets the current record's "estado_id" value
- * @method Centro              setMunicipioId()     Sets the current record's "municipio_id" value
- * @method Centro              setParroquiaId()     Sets the current record's "parroquia_id" value
- * @method Centro              setDireccion()       Sets the current record's "direccion" value
- * @method Centro              setNombre()          Sets the current record's "nombre" value
- * @method Centro              setResponsable()     Sets the current record's "responsable" value
- * @method Centro              setTelf1()           Sets the current record's "telf1" value
- * @method Centro              setTelf2()           Sets the current record's "telf2" value
- * @method Centro              setMail1()           Sets the current record's "mail1" value
- * @method Centro              setMail2()           Sets the current record's "mail2" value
- * @method Centro              setAdultosMsalud()   Sets the current record's "adultos_msalud" value
- * @method Centro              setAdultosFsalud()   Sets the current record's "adultos_fsalud" value
- * @method Centro              setAdultosMsocial()  Sets the current record's "adultos_msocial" value
- * @method Centro              setAdultosFsocial()  Sets the current record's "adultos_fsocial" value
- * @method Centro              setAdultosF()        Sets the current record's "adultos_f" value
- * @method Centro              setAdultosM()        Sets the current record's "adultos_m" value
- * @method Centro              setAdultosT()        Sets the current record's "adultos_t" value
- * @method Centro              setLatitud()         Sets the current record's "latitud" value
- * @method Centro              setLongitud()        Sets the current record's "longitud" value
- * @method Centro              setType()            Sets the current record's "type" value
- * @method Centro              setEstado()          Sets the current record's "Estado" value
- * @method Centro              setMunicipio()       Sets the current record's "Municipio" value
- * @method Centro              setParroquia()       Sets the current record's "Parroquia" value
- * @method Centro              setAtencion()        Sets the current record's "Atencion" collection
+ * @method integer             getId()                  Returns the current record's "id" value
+ * @method integer             getEstadoId()            Returns the current record's "estado_id" value
+ * @method integer             getMunicipioId()         Returns the current record's "municipio_id" value
+ * @method integer             getParroquiaId()         Returns the current record's "parroquia_id" value
+ * @method string              getDireccion()           Returns the current record's "direccion" value
+ * @method string              getNombre()              Returns the current record's "nombre" value
+ * @method string              getResponsable()         Returns the current record's "responsable" value
+ * @method string              getTelf1()               Returns the current record's "telf1" value
+ * @method string              getTelf2()               Returns the current record's "telf2" value
+ * @method string              getMail1()               Returns the current record's "mail1" value
+ * @method string              getMail2()               Returns the current record's "mail2" value
+ * @method integer             getAdultosMsalud()       Returns the current record's "adultos_msalud" value
+ * @method integer             getAdultosFsalud()       Returns the current record's "adultos_fsalud" value
+ * @method integer             getAdultosMsocial()      Returns the current record's "adultos_msocial" value
+ * @method integer             getAdultosFsocial()      Returns the current record's "adultos_fsocial" value
+ * @method integer             getAdultosMeconomico()   Returns the current record's "adultos_meconomico" value
+ * @method integer             getAdultosFeconomico()   Returns the current record's "adultos_feconomico" value
+ * @method integer             getAdultosMtecnica()     Returns the current record's "adultos_mtecnica" value
+ * @method integer             getAdultosFtecnica()     Returns the current record's "adultos_ftecnica" value
+ * @method integer             getAdultosMproductiva()  Returns the current record's "adultos_mproductiva" value
+ * @method integer             getAdultosFproductiva()  Returns the current record's "adultos_fproductiva" value
+ * @method integer             getAdultosF()            Returns the current record's "adultos_f" value
+ * @method integer             getAdultosM()            Returns the current record's "adultos_m" value
+ * @method integer             getAdultosT()            Returns the current record's "adultos_t" value
+ * @method long                getLatitud()             Returns the current record's "latitud" value
+ * @method long                getLongitud()            Returns the current record's "longitud" value
+ * @method string              getType()                Returns the current record's "type" value
+ * @method Estado              getEstado()              Returns the current record's "Estado" value
+ * @method Municipio           getMunicipio()           Returns the current record's "Municipio" value
+ * @method Parroquia           getParroquia()           Returns the current record's "Parroquia" value
+ * @method Doctrine_Collection getAtencion()            Returns the current record's "Atencion" collection
+ * @method Centro              setId()                  Sets the current record's "id" value
+ * @method Centro              setEstadoId()            Sets the current record's "estado_id" value
+ * @method Centro              setMunicipioId()         Sets the current record's "municipio_id" value
+ * @method Centro              setParroquiaId()         Sets the current record's "parroquia_id" value
+ * @method Centro              setDireccion()           Sets the current record's "direccion" value
+ * @method Centro              setNombre()              Sets the current record's "nombre" value
+ * @method Centro              setResponsable()         Sets the current record's "responsable" value
+ * @method Centro              setTelf1()               Sets the current record's "telf1" value
+ * @method Centro              setTelf2()               Sets the current record's "telf2" value
+ * @method Centro              setMail1()               Sets the current record's "mail1" value
+ * @method Centro              setMail2()               Sets the current record's "mail2" value
+ * @method Centro              setAdultosMsalud()       Sets the current record's "adultos_msalud" value
+ * @method Centro              setAdultosFsalud()       Sets the current record's "adultos_fsalud" value
+ * @method Centro              setAdultosMsocial()      Sets the current record's "adultos_msocial" value
+ * @method Centro              setAdultosFsocial()      Sets the current record's "adultos_fsocial" value
+ * @method Centro              setAdultosMeconomico()   Sets the current record's "adultos_meconomico" value
+ * @method Centro              setAdultosFeconomico()   Sets the current record's "adultos_feconomico" value
+ * @method Centro              setAdultosMtecnica()     Sets the current record's "adultos_mtecnica" value
+ * @method Centro              setAdultosFtecnica()     Sets the current record's "adultos_ftecnica" value
+ * @method Centro              setAdultosMproductiva()  Sets the current record's "adultos_mproductiva" value
+ * @method Centro              setAdultosFproductiva()  Sets the current record's "adultos_fproductiva" value
+ * @method Centro              setAdultosF()            Sets the current record's "adultos_f" value
+ * @method Centro              setAdultosM()            Sets the current record's "adultos_m" value
+ * @method Centro              setAdultosT()            Sets the current record's "adultos_t" value
+ * @method Centro              setLatitud()             Sets the current record's "latitud" value
+ * @method Centro              setLongitud()            Sets the current record's "longitud" value
+ * @method Centro              setType()                Sets the current record's "type" value
+ * @method Centro              setEstado()              Sets the current record's "Estado" value
+ * @method Centro              setMunicipio()           Sets the current record's "Municipio" value
+ * @method Centro              setParroquia()           Sets the current record's "Parroquia" value
+ * @method Centro              setAtencion()            Sets the current record's "Atencion" collection
  * 
  * @package    inasscentros
  * @subpackage model
@@ -178,6 +196,36 @@ abstract class BaseCentro extends sfDoctrineRecord
              'length' => 4,
              ));
         $this->hasColumn('adultos_fsocial', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('adultos_meconomico', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('adultos_feconomico', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('adultos_mtecnica', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('adultos_ftecnica', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('adultos_mproductiva', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('adultos_fproductiva', 'integer', 4, array(
              'type' => 'integer',
              'notnull' => false,
              'length' => 4,

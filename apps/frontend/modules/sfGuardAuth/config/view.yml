@@ -3,7 +3,7 @@ default:
     content-type: text/html
 
   metas:
-    title:        Sistema Automatizado para la Solicitud de Materiales Médicos
+    title:        Sistema Automatizado para el Registro de Centros de Atención
     #description:  symfony project
     #keywords:     symfony, project
     #language:     en
