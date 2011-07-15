@@ -102,7 +102,7 @@
  * 
  * @package    inasscentros
  * @subpackage model
- * @author     Your name here
+ * @author     Alexis Limongi
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BaseCentro extends sfDoctrineRecord
@@ -278,6 +278,14 @@ abstract class BaseCentro extends sfDoctrineRecord
              'Refugio' => 
              array(
               'type' => 'Refugio',
+             ),
+             'Comunasconst' => 
+             array(
+              'type' => 'Comunasconst',
+             ),
+             'Nuevosurb' => 
+             array(
+              'type' => 'Nuevosurb',
              ),
              ));
     }

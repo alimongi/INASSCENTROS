@@ -21,7 +21,6 @@ class aldeasActions extends sfActions
     $this->paginas = Doctrine::getTable('Aldea')->getTotalPages();
     $this->menu = Doctrine::getTable('Aldea')->getDisplay(array(), true);
 
-
   }
 
   public function executeAldIndex(sfWebRequest $request)

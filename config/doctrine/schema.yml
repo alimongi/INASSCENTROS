@@ -219,6 +219,14 @@ Refugio:
   inheritance:
     extends: Centro
     type: column_aggregation
+Comunasconst:
+  inheritance:
+    extends: Centro
+    type: column_aggregation
+Nuevosurb:
+  inheritance:
+    extends: Centro
+    type: column_aggregation
 
 Beneficiario:
   actAs:

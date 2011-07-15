@@ -54,7 +54,7 @@
     <li><a href="<?php echo url_for('gerogranjas/GerIndex')?>">Estadística</a></li>
     </ul>
     </li>
-    <li><a href="#" title="Administracion de Aldeas de Encuentro">Aldeas de Encuentro</a>
+    <li><a href="#" title="Administracion de Aldeas de Encuentro">Aldeas</a>
     <ul>
     <li><a href="<?php echo url_for('aldeas/new')?>">Agregar</a></li>
     <li><a href="<?php echo url_for('aldeas/index')?>">Ver</a></li>
@@ -66,6 +66,20 @@
     <li><a href="<?php echo url_for('refugios/new')?>">Agregar</a></li>
     <li><a href="<?php echo url_for('refugios/index')?>">Ver</a></li>
     <li><a href="<?php echo url_for('refugios/RefIndex')?>">Estadística</a></li>
+    </ul>
+    </li>
+    <li><a href="#" title="Administracion de Comunas en construcción">Comunas</a>
+    <ul>
+    <li><a href="<?php echo url_for('comunas/new')?>">Agregar</a></li>
+    <li><a href="<?php echo url_for('comunas/index')?>">Ver</a></li>
+    <li><a href="<?php echo url_for('comunas/ComIndex')?>">Estadística</a></li>
+    </ul>
+    </li>
+    <li><a href="#" title="Administracion de Nuevos Urbanismos">Urbanismos</a>
+    <ul>
+    <li><a href="<?php echo url_for('urbanismos/new')?>">Agregar</a></li>
+    <li><a href="<?php echo url_for('urbanismos/index')?>">Ver</a></li>
+    <li><a href="<?php echo url_for('urbanismos/UrbIndex')?>">Estadística</a></li>
     </ul>
     </li>
     <li><a href="#" title="Administracion de Beneficiarios">Beneficiarios</a>
