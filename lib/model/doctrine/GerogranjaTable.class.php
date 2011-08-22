@@ -16,7 +16,7 @@ class GerogranjaTable extends Doctrine_Table
         $strSQL = Doctrine_Query::create()
                 ->select()
                 ->from('Gerogranja g')
-                ->innerJoin('g.Estado e')
+                ->leftJoin('g.Estado e')
                 ->whereIn('g.estado_id', $ids)
                 ->andWhere('g.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(

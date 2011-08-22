@@ -17,7 +17,7 @@ class RefugioTable extends CentroTable
         $strSQL = Doctrine_Query::create()
                 ->select()
                 ->from('Refugio r')
-                ->innerJoin('r.Estado e')
+                ->leftJoin('r.Estado e')
                 ->whereIn('r.estado_id', $ids)
                 ->andWhere('r.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(

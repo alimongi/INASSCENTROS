@@ -25,7 +25,7 @@ class urbanismosActions extends sfActions
   public function executeUrbIndex(sfWebRequest $request)
   {
       $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->nuevosurbs = Doctrine::getTable('Nuevosurb')->getListPager($ids);
+      $this->nuevosurbs = Doctrine::getTable('Nuevosurb')->getListPager($ids, 0, 0);
   }
 
 

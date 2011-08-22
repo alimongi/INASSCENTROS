@@ -16,7 +16,7 @@ class AldeaTable extends Doctrine_Table
         $strSQL = Doctrine_Query::create()
                 ->select()
                 ->from('Aldea a')
-                ->innerJoin('a.Estado e')
+                ->leftJoin('a.Estado e')
                 ->whereIn('a.estado_id', $ids)
                 ->andWhere('a.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(

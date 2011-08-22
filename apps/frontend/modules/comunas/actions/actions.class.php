@@ -27,7 +27,7 @@ class comunasActions extends sfActions
     public function executeComIndex(sfWebRequest $request)
   {
       $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->comunasconsts = Doctrine::getTable('Comunasconst')->getListPager($ids);
+      $this->comunasconsts = Doctrine::getTable('Comunasconst')->getListPager($ids, 0, 0);
   }
 
   public function executeShow(sfWebRequest $request)

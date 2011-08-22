@@ -9,7 +9,7 @@ class NuevosurbTable extends Doctrine_Table
         $strSQL = Doctrine_Query::create()
                 ->select()
                 ->from('Nuevosurb n')
-                ->innerJoin('n.Estado e')
+                ->leftJoin('n.Estado e')
                 ->whereIn('n.estado_id', $ids)
                 ->andWhere('n.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(

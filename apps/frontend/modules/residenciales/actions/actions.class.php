@@ -25,7 +25,7 @@ class residencialesActions extends sfActions
     public function executeResIndex(sfWebRequest $request)
   {
       $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
-      $this->residenciales = Doctrine::getTable('Residencial')->getListPager($ids);
+      $this->residenciales = Doctrine::getTable('Residencial')->getListPager($ids, 0, 0);
 //      if($request->getParameter('formato') == 'excel') {
 //          $this->setLayout(false);
 //          $response = $this->getResponse();

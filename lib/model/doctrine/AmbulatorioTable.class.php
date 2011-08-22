@@ -11,12 +11,12 @@ class AmbulatorioTable extends Doctrine_Table
 //        return $q->execute();
 //    }
 
-    public function getListPager($ids, $page = 1, $limit = 10 )
+    public function getListPager($ids, $page = 1, $limit = 15 )
     {
         $strSQL = Doctrine_Query::create()
                 ->select()
                 ->from('Ambulatorio a')
-                ->innerJoin('a.Estado e')
+                ->leftJoin('a.Estado e')
                 ->whereIn('a.estado_id', $ids)
                 ->andWhere('a.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(

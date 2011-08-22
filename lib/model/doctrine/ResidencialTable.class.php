@@ -17,7 +17,7 @@ class ResidencialTable extends Doctrine_Table
         $strSQL = Doctrine_Query::create()
                 ->select()
                 ->from('Residencial r')
-                ->innerJoin('r.Estado e')
+                ->leftJoin('r.Estado e')
                 ->whereIn('r.estado_id', $ids)
                 ->andWhere('r.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(

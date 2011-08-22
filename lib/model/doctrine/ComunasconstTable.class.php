@@ -9,7 +9,7 @@ class ComunasconstTable extends Doctrine_Table
         $strSQL = Doctrine_Query::create()
                 ->select()
                 ->from('Comunasconst c')
-                ->innerJoin('c.Estado e')
+                ->leftJoin('c.Estado e')
                 ->whereIn('c.estado_id', $ids)
                 ->andWhere('c.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(
